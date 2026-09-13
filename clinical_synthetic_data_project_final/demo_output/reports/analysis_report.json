@@ -1,0 +1,4391 @@
+{
+  "copula": {
+    "descriptive": {
+      "n_total": 6000,
+      "n_by_class": {
+        "healthy": 1000,
+        "diabetes": 1000,
+        "dyslipidemia": 1000,
+        "hypertension": 1000,
+        "obesity": 1000,
+        "cardiovascular_risk": 1000
+      },
+      "continuous_global": {
+        "age": {
+          "count": 6000.0,
+          "mean": 51.1,
+          "std": 13.43,
+          "min": 18.01,
+          "q25": 41.96,
+          "median": 51.53,
+          "q75": 60.58,
+          "max": 89.77,
+          "iqr": 18.62
+        },
+        "height": {
+          "count": 6000.0,
+          "mean": 171.24,
+          "std": 10.27,
+          "min": 140.73,
+          "q25": 163.78,
+          "median": 171.25,
+          "q75": 178.74,
+          "max": 209.13,
+          "iqr": 14.96
+        },
+        "weight": {
+          "count": 6000.0,
+          "mean": 73.27,
+          "std": 15.42,
+          "min": 38.13,
+          "q25": 62.14,
+          "median": 70.37,
+          "q75": 81.53,
+          "max": 146.41,
+          "iqr": 19.4
+        },
+        "bmi": {
+          "count": 6000.0,
+          "mean": 24.9,
+          "std": 4.29,
+          "min": 16.46,
+          "q25": 21.88,
+          "median": 23.19,
+          "q75": 27.46,
+          "max": 39.79,
+          "iqr": 5.59
+        },
+        "heart_rate": {
+          "count": 6000.0,
+          "mean": 73.34,
+          "std": 6.44,
+          "min": 45.99,
+          "q25": 69.25,
+          "median": 73.12,
+          "q75": 77.02,
+          "max": 98.08,
+          "iqr": 7.77
+        },
+        "sbp": {
+          "count": 6000.0,
+          "mean": 122.62,
+          "std": 15.39,
+          "min": 91.38,
+          "q25": 112.67,
+          "median": 116.26,
+          "q75": 130.07,
+          "max": 175.3,
+          "iqr": 17.4
+        },
+        "dbp": {
+          "count": 6000.0,
+          "mean": 79.3,
+          "std": 8.68,
+          "min": 53.24,
+          "q25": 73.49,
+          "median": 76.56,
+          "q75": 84.21,
+          "max": 106.8,
+          "iqr": 10.72
+        },
+        "resp_rate": {
+          "count": 6000.0,
+          "mean": 15.0,
+          "std": 1.97,
+          "min": 8.05,
+          "q25": 13.68,
+          "median": 15.01,
+          "q75": 16.31,
+          "max": 22.08,
+          "iqr": 2.63
+        },
+        "temp": {
+          "count": 6000.0,
+          "mean": 36.8,
+          "std": 0.31,
+          "min": 35.72,
+          "q25": 36.59,
+          "median": 36.8,
+          "q75": 37.0,
+          "max": 38.3,
+          "iqr": 0.41
+        },
+        "fasting_glucose": {
+          "count": 6000.0,
+          "mean": 104.79,
+          "std": 27.55,
+          "min": 67.82,
+          "q25": 88.21,
+          "median": 93.7,
+          "q75": 109.86,
+          "max": 214.82,
+          "iqr": 21.65
+        },
+        "hba1c": {
+          "count": 6000.0,
+          "mean": 5.72,
+          "std": 0.91,
+          "min": 4.43,
+          "q25": 5.16,
+          "median": 5.35,
+          "q75": 5.99,
+          "max": 9.8,
+          "iqr": 0.83
+        },
+        "total_chol": {
+          "count": 6000.0,
+          "mean": 196.94,
+          "std": 35.9,
+          "min": 112.34,
+          "q25": 170.84,
+          "median": 185.82,
+          "q75": 225.69,
+          "max": 297.72,
+          "iqr": 54.85
+        },
+        "ldl": {
+          "count": 6000.0,
+          "mean": 117.8,
+          "std": 34.81,
+          "min": 46.56,
+          "q25": 92.71,
+          "median": 105.36,
+          "q75": 145.33,
+          "max": 215.94,
+          "iqr": 52.62
+        },
+        "hdl": {
+          "count": 6000.0,
+          "mean": 53.66,
+          "std": 8.78,
+          "min": 24.98,
+          "q25": 47.35,
+          "median": 53.37,
+          "q75": 59.28,
+          "max": 90.37,
+          "iqr": 11.93
+        },
+        "triglycerides": {
+          "count": 6000.0,
+          "mean": 127.37,
+          "std": 29.79,
+          "min": 43.81,
+          "q25": 107.18,
+          "median": 125.06,
+          "q75": 145.32,
+          "max": 236.63,
+          "iqr": 38.14
+        }
+      },
+      "continuous_by_class": {
+        "cardiovascular_risk": {
+          "age": {
+            "count": 1000.0,
+            "mean": 59.97,
+            "std": 9.63,
+            "min": 29.99,
+            "median": 59.91,
+            "max": 88.99,
+            "q25": 53.79,
+            "q75": 66.63,
+            "iqr": 12.84
+          },
+          "height": {
+            "count": 1000.0,
+            "mean": 170.85,
+            "std": 10.44,
+            "min": 140.78,
+            "median": 170.8,
+            "max": 200.09,
+            "q25": 163.54,
+            "q75": 178.31,
+            "iqr": 14.77
+          },
+          "weight": {
+            "count": 1000.0,
+            "mean": 80.42,
+            "std": 10.77,
+            "min": 51.66,
+            "median": 80.17,
+            "max": 115.72,
+            "q25": 72.66,
+            "q75": 87.44,
+            "iqr": 14.78
+          },
+          "bmi": {
+            "count": 1000.0,
+            "mean": 27.45,
+            "std": 1.44,
+            "min": 21.82,
+            "median": 27.47,
+            "max": 31.99,
+            "q25": 26.56,
+            "q75": 28.41,
+            "iqr": 1.85
+          },
+          "heart_rate": {
+            "count": 1000.0,
+            "mean": 82.13,
+            "std": 4.76,
+            "min": 65.87,
+            "median": 82.14,
+            "max": 98.08,
+            "q25": 79.16,
+            "q75": 85.19,
+            "iqr": 6.03
+          },
+          "sbp": {
+            "count": 1000.0,
+            "mean": 130.06,
+            "std": 4.96,
+            "min": 109.74,
+            "median": 130.07,
+            "max": 145.74,
+            "q25": 126.73,
+            "q75": 133.35,
+            "iqr": 6.62
+          },
+          "dbp": {
+            "count": 1000.0,
+            "mean": 84.04,
+            "std": 3.06,
+            "min": 72.19,
+            "median": 84.17,
+            "max": 92.73,
+            "q25": 81.94,
+            "q75": 86.11,
+            "iqr": 4.17
+          },
+          "resp_rate": {
+            "count": 1000.0,
+            "mean": 14.98,
+            "std": 1.91,
+            "min": 9.24,
+            "median": 15.03,
+            "max": 20.11,
+            "q25": 13.75,
+            "q75": 16.21,
+            "iqr": 2.45
+          },
+          "temp": {
+            "count": 1000.0,
+            "mean": 36.8,
+            "std": 0.29,
+            "min": 35.88,
+            "median": 36.81,
+            "max": 37.67,
+            "q25": 36.61,
+            "q75": 37.0,
+            "iqr": 0.38
+          },
+          "fasting_glucose": {
+            "count": 1000.0,
+            "mean": 109.95,
+            "std": 5.96,
+            "min": 94.65,
+            "median": 109.88,
+            "max": 134.09,
+            "q25": 106.14,
+            "q75": 113.79,
+            "iqr": 7.65
+          },
+          "hba1c": {
+            "count": 1000.0,
+            "mean": 6.0,
+            "std": 0.19,
+            "min": 5.36,
+            "median": 6.0,
+            "max": 6.69,
+            "q25": 5.87,
+            "q75": 6.12,
+            "iqr": 0.25
+          },
+          "total_chol": {
+            "count": 1000.0,
+            "mean": 226.03,
+            "std": 11.38,
+            "min": 197.74,
+            "median": 225.92,
+            "max": 262.95,
+            "q25": 218.39,
+            "q75": 233.72,
+            "iqr": 15.33
+          },
+          "ldl": {
+            "count": 1000.0,
+            "mean": 145.07,
+            "std": 7.87,
+            "min": 122.44,
+            "median": 145.33,
+            "max": 171.54,
+            "q25": 139.56,
+            "q75": 150.53,
+            "iqr": 10.97
+          },
+          "hdl": {
+            "count": 1000.0,
+            "mean": 46.98,
+            "std": 6.97,
+            "min": 24.98,
+            "median": 47.02,
+            "max": 63.48,
+            "q25": 41.85,
+            "q75": 51.9,
+            "iqr": 10.05
+          },
+          "triglycerides": {
+            "count": 1000.0,
+            "mean": 169.98,
+            "std": 17.26,
+            "min": 123.11,
+            "median": 168.71,
+            "max": 227.85,
+            "q25": 158.07,
+            "q75": 180.89,
+            "iqr": 22.82
+          }
+        },
+        "diabetes": {
+          "age": {
+            "count": 1000.0,
+            "mean": 54.39,
+            "std": 11.2,
+            "min": 19.49,
+            "median": 53.99,
+            "max": 88.92,
+            "q25": 46.75,
+            "q75": 61.69,
+            "iqr": 14.94
+          },
+          "height": {
+            "count": 1000.0,
+            "mean": 171.64,
+            "std": 10.14,
+            "min": 142.71,
+            "median": 171.58,
+            "max": 202.82,
+            "q25": 164.28,
+            "q75": 178.83,
+            "iqr": 14.55
+          },
+          "weight": {
+            "count": 1000.0,
+            "mean": 65.82,
+            "std": 8.58,
+            "min": 43.19,
+            "median": 65.21,
+            "max": 91.11,
+            "q25": 59.37,
+            "q75": 71.95,
+            "iqr": 12.57
+          },
+          "bmi": {
+            "count": 1000.0,
+            "mean": 22.26,
+            "std": 1.13,
+            "min": 18.76,
+            "median": 22.27,
+            "max": 24.99,
+            "q25": 21.47,
+            "q75": 23.08,
+            "iqr": 1.61
+          },
+          "heart_rate": {
+            "count": 1000.0,
+            "mean": 71.67,
+            "std": 4.25,
+            "min": 56.01,
+            "median": 71.77,
+            "max": 84.96,
+            "q25": 68.74,
+            "q75": 74.47,
+            "iqr": 5.73
+          },
+          "sbp": {
+            "count": 1000.0,
+            "mean": 114.31,
+            "std": 3.05,
+            "min": 103.36,
+            "median": 114.65,
+            "max": 119.97,
+            "q25": 112.42,
+            "q75": 116.5,
+            "iqr": 4.08
+          },
+          "dbp": {
+            "count": 1000.0,
+            "mean": 74.44,
+            "std": 2.73,
+            "min": 63.28,
+            "median": 74.65,
+            "max": 80.0,
+            "q25": 72.81,
+            "q75": 76.43,
+            "iqr": 3.62
+          },
+          "resp_rate": {
+            "count": 1000.0,
+            "mean": 14.99,
+            "std": 2.03,
+            "min": 8.22,
+            "median": 14.96,
+            "max": 21.27,
+            "q25": 13.6,
+            "q75": 16.4,
+            "iqr": 2.8
+          },
+          "temp": {
+            "count": 1000.0,
+            "mean": 36.8,
+            "std": 0.31,
+            "min": 35.83,
+            "median": 36.8,
+            "max": 38.3,
+            "q25": 36.58,
+            "q75": 37.02,
+            "iqr": 0.44
+          },
+          "fasting_glucose": {
+            "count": 1000.0,
+            "mean": 160.3,
+            "std": 19.24,
+            "min": 107.85,
+            "median": 160.05,
+            "max": 214.82,
+            "q25": 146.62,
+            "q75": 173.75,
+            "iqr": 27.13
+          },
+          "hba1c": {
+            "count": 1000.0,
+            "mean": 7.48,
+            "std": 0.76,
+            "min": 5.74,
+            "median": 7.45,
+            "max": 9.8,
+            "q25": 6.9,
+            "q75": 8.02,
+            "iqr": 1.12
+          },
+          "total_chol": {
+            "count": 1000.0,
+            "mean": 176.0,
+            "std": 12.71,
+            "min": 128.87,
+            "median": 176.53,
+            "max": 199.91,
+            "q25": 167.6,
+            "q75": 185.59,
+            "iqr": 17.99
+          },
+          "ldl": {
+            "count": 1000.0,
+            "mean": 97.65,
+            "std": 10.79,
+            "min": 56.86,
+            "median": 98.06,
+            "max": 125.41,
+            "q25": 90.81,
+            "q75": 105.45,
+            "iqr": 14.64
+          },
+          "hdl": {
+            "count": 1000.0,
+            "mean": 55.34,
+            "std": 7.61,
+            "min": 40.08,
+            "median": 54.96,
+            "max": 78.2,
+            "q25": 49.8,
+            "q75": 60.42,
+            "iqr": 10.61
+          },
+          "triglycerides": {
+            "count": 1000.0,
+            "mean": 115.64,
+            "std": 14.93,
+            "min": 69.54,
+            "median": 115.29,
+            "max": 149.6,
+            "q25": 104.71,
+            "q75": 126.59,
+            "iqr": 21.88
+          }
+        },
+        "dyslipidemia": {
+          "age": {
+            "count": 1000.0,
+            "mean": 51.84,
+            "std": 11.9,
+            "min": 18.95,
+            "median": 51.36,
+            "max": 89.54,
+            "q25": 42.95,
+            "q75": 59.9,
+            "iqr": 16.95
+          },
+          "height": {
+            "count": 1000.0,
+            "mean": 171.08,
+            "std": 10.27,
+            "min": 142.7,
+            "median": 171.32,
+            "max": 201.06,
+            "q25": 163.53,
+            "q75": 178.43,
+            "iqr": 14.89
+          },
+          "weight": {
+            "count": 1000.0,
+            "mean": 65.71,
+            "std": 8.73,
+            "min": 42.74,
+            "median": 65.48,
+            "max": 96.35,
+            "q25": 59.51,
+            "q75": 71.74,
+            "iqr": 12.23
+          },
+          "bmi": {
+            "count": 1000.0,
+            "mean": 22.36,
+            "std": 1.21,
+            "min": 18.29,
+            "median": 22.32,
+            "max": 24.97,
+            "q25": 21.56,
+            "q75": 23.23,
+            "iqr": 1.67
+          },
+          "heart_rate": {
+            "count": 1000.0,
+            "mean": 71.7,
+            "std": 4.26,
+            "min": 58.49,
+            "median": 71.81,
+            "max": 86.57,
+            "q25": 68.77,
+            "q75": 74.79,
+            "iqr": 6.02
+          },
+          "sbp": {
+            "count": 1000.0,
+            "mean": 114.32,
+            "std": 3.02,
+            "min": 105.69,
+            "median": 114.6,
+            "max": 119.91,
+            "q25": 112.14,
+            "q75": 116.6,
+            "iqr": 4.46
+          },
+          "dbp": {
+            "count": 1000.0,
+            "mean": 74.45,
+            "std": 2.69,
+            "min": 66.19,
+            "median": 74.54,
+            "max": 79.99,
+            "q25": 72.57,
+            "q75": 76.46,
+            "iqr": 3.88
+          },
+          "resp_rate": {
+            "count": 1000.0,
+            "mean": 15.06,
+            "std": 1.98,
+            "min": 8.05,
+            "median": 15.04,
+            "max": 21.12,
+            "q25": 13.83,
+            "q75": 16.26,
+            "iqr": 2.43
+          },
+          "temp": {
+            "count": 1000.0,
+            "mean": 36.79,
+            "std": 0.31,
+            "min": 35.75,
+            "median": 36.79,
+            "max": 37.92,
+            "q25": 36.59,
+            "q75": 36.98,
+            "iqr": 0.4
+          },
+          "fasting_glucose": {
+            "count": 1000.0,
+            "mean": 89.53,
+            "std": 4.82,
+            "min": 73.25,
+            "median": 89.36,
+            "max": 99.81,
+            "q25": 86.14,
+            "q75": 93.11,
+            "iqr": 6.97
+          },
+          "hba1c": {
+            "count": 1000.0,
+            "mean": 5.18,
+            "std": 0.17,
+            "min": 4.63,
+            "median": 5.18,
+            "max": 5.69,
+            "q25": 5.07,
+            "q75": 5.3,
+            "iqr": 0.23
+          },
+          "total_chol": {
+            "count": 1000.0,
+            "mean": 257.5,
+            "std": 13.68,
+            "min": 213.96,
+            "median": 257.29,
+            "max": 297.72,
+            "q25": 247.86,
+            "q75": 266.35,
+            "iqr": 18.49
+          },
+          "ldl": {
+            "count": 1000.0,
+            "mean": 178.69,
+            "std": 11.11,
+            "min": 146.15,
+            "median": 178.37,
+            "max": 215.94,
+            "q25": 170.46,
+            "q75": 185.65,
+            "iqr": 15.19
+          },
+          "hdl": {
+            "count": 1000.0,
+            "mean": 49.97,
+            "std": 7.31,
+            "min": 31.73,
+            "median": 49.66,
+            "max": 70.37,
+            "q25": 44.72,
+            "q75": 54.94,
+            "iqr": 10.22
+          },
+          "triglycerides": {
+            "count": 1000.0,
+            "mean": 143.47,
+            "std": 21.01,
+            "min": 92.7,
+            "median": 141.71,
+            "max": 236.63,
+            "q25": 128.86,
+            "q75": 156.27,
+            "iqr": 27.41
+          }
+        },
+        "healthy": {
+          "age": {
+            "count": 1000.0,
+            "mean": 40.18,
+            "std": 12.4,
+            "min": 18.06,
+            "median": 39.4,
+            "max": 81.41,
+            "q25": 30.48,
+            "q75": 48.95,
+            "iqr": 18.46
+          },
+          "height": {
+            "count": 1000.0,
+            "mean": 171.18,
+            "std": 10.53,
+            "min": 140.73,
+            "median": 170.82,
+            "max": 209.13,
+            "q25": 163.34,
+            "q75": 179.23,
+            "iqr": 15.89
+          },
+          "weight": {
+            "count": 1000.0,
+            "mean": 64.56,
+            "std": 9.55,
+            "min": 38.13,
+            "median": 64.03,
+            "max": 105.1,
+            "q25": 57.77,
+            "q75": 71.03,
+            "iqr": 13.26
+          },
+          "bmi": {
+            "count": 1000.0,
+            "mean": 21.93,
+            "std": 1.59,
+            "min": 16.46,
+            "median": 21.96,
+            "max": 26.61,
+            "q25": 20.95,
+            "q75": 22.99,
+            "iqr": 2.05
+          },
+          "heart_rate": {
+            "count": 1000.0,
+            "mean": 68.13,
+            "std": 6.85,
+            "min": 45.99,
+            "median": 67.81,
+            "max": 90.46,
+            "q25": 63.43,
+            "q75": 72.5,
+            "iqr": 9.06
+          },
+          "sbp": {
+            "count": 1000.0,
+            "mean": 110.4,
+            "std": 5.8,
+            "min": 91.38,
+            "median": 110.41,
+            "max": 128.61,
+            "q25": 106.69,
+            "q75": 114.36,
+            "iqr": 7.67
+          },
+          "dbp": {
+            "count": 1000.0,
+            "mean": 72.26,
+            "std": 4.99,
+            "min": 53.24,
+            "median": 72.23,
+            "max": 87.21,
+            "q25": 68.97,
+            "q75": 75.57,
+            "iqr": 6.59
+          },
+          "resp_rate": {
+            "count": 1000.0,
+            "mean": 15.0,
+            "std": 1.97,
+            "min": 9.03,
+            "median": 15.01,
+            "max": 20.77,
+            "q25": 13.65,
+            "q75": 16.32,
+            "iqr": 2.68
+          },
+          "temp": {
+            "count": 1000.0,
+            "mean": 36.8,
+            "std": 0.31,
+            "min": 35.88,
+            "median": 36.8,
+            "max": 37.83,
+            "q25": 36.59,
+            "q75": 37.0,
+            "iqr": 0.41
+          },
+          "fasting_glucose": {
+            "count": 1000.0,
+            "mean": 85.86,
+            "std": 5.84,
+            "min": 67.82,
+            "median": 86.0,
+            "max": 103.25,
+            "q25": 81.89,
+            "q75": 89.9,
+            "iqr": 8.01
+          },
+          "hba1c": {
+            "count": 1000.0,
+            "mean": 5.09,
+            "std": 0.22,
+            "min": 4.43,
+            "median": 5.09,
+            "max": 5.75,
+            "q25": 4.95,
+            "q75": 5.24,
+            "iqr": 0.29
+          },
+          "total_chol": {
+            "count": 1000.0,
+            "mean": 164.04,
+            "std": 16.78,
+            "min": 112.34,
+            "median": 163.72,
+            "max": 221.91,
+            "q25": 153.18,
+            "q75": 174.85,
+            "iqr": 21.66
+          },
+          "ldl": {
+            "count": 1000.0,
+            "mean": 84.78,
+            "std": 13.65,
+            "min": 46.56,
+            "median": 84.2,
+            "max": 132.92,
+            "q25": 75.52,
+            "q75": 93.63,
+            "iqr": 18.12
+          },
+          "hdl": {
+            "count": 1000.0,
+            "mean": 60.3,
+            "std": 9.19,
+            "min": 40.06,
+            "median": 59.78,
+            "max": 90.37,
+            "q25": 54.51,
+            "q75": 66.33,
+            "iqr": 11.82
+          },
+          "triglycerides": {
+            "count": 1000.0,
+            "mean": 94.36,
+            "std": 21.78,
+            "min": 43.81,
+            "median": 91.54,
+            "max": 177.17,
+            "q25": 78.56,
+            "q75": 107.38,
+            "iqr": 28.82
+          }
+        },
+        "hypertension": {
+          "age": {
+            "count": 1000.0,
+            "mean": 56.94,
+            "std": 11.76,
+            "min": 19.02,
+            "median": 57.07,
+            "max": 89.77,
+            "q25": 48.68,
+            "q75": 64.87,
+            "iqr": 16.19
+          },
+          "height": {
+            "count": 1000.0,
+            "mean": 171.4,
+            "std": 10.32,
+            "min": 141.46,
+            "median": 171.7,
+            "max": 205.83,
+            "q25": 163.71,
+            "q75": 178.92,
+            "iqr": 15.2
+          },
+          "weight": {
+            "count": 1000.0,
+            "mean": 66.26,
+            "std": 8.45,
+            "min": 44.28,
+            "median": 66.29,
+            "max": 95.96,
+            "q25": 59.56,
+            "q75": 71.84,
+            "iqr": 12.28
+          },
+          "bmi": {
+            "count": 1000.0,
+            "mean": 22.48,
+            "std": 1.19,
+            "min": 16.54,
+            "median": 22.51,
+            "max": 24.97,
+            "q25": 21.67,
+            "q75": 23.33,
+            "iqr": 1.67
+          },
+          "heart_rate": {
+            "count": 1000.0,
+            "mean": 72.68,
+            "std": 4.34,
+            "min": 56.44,
+            "median": 72.82,
+            "max": 90.09,
+            "q25": 69.66,
+            "q75": 75.78,
+            "iqr": 6.12
+          },
+          "sbp": {
+            "count": 1000.0,
+            "mean": 152.13,
+            "std": 7.54,
+            "min": 128.47,
+            "median": 151.94,
+            "max": 175.3,
+            "q25": 147.14,
+            "q75": 157.15,
+            "iqr": 10.01
+          },
+          "dbp": {
+            "count": 1000.0,
+            "mean": 95.12,
+            "std": 3.67,
+            "min": 80.48,
+            "median": 94.98,
+            "max": 106.8,
+            "q25": 92.63,
+            "q75": 97.61,
+            "iqr": 4.97
+          },
+          "resp_rate": {
+            "count": 1000.0,
+            "mean": 15.04,
+            "std": 1.96,
+            "min": 9.12,
+            "median": 15.1,
+            "max": 20.67,
+            "q25": 13.65,
+            "q75": 16.35,
+            "iqr": 2.7
+          },
+          "temp": {
+            "count": 1000.0,
+            "mean": 36.8,
+            "std": 0.3,
+            "min": 35.88,
+            "median": 36.81,
+            "max": 37.89,
+            "q25": 36.59,
+            "q75": 37.01,
+            "iqr": 0.42
+          },
+          "fasting_glucose": {
+            "count": 1000.0,
+            "mean": 91.39,
+            "std": 4.61,
+            "min": 74.26,
+            "median": 91.56,
+            "max": 100.0,
+            "q25": 88.34,
+            "q75": 94.87,
+            "iqr": 6.53
+          },
+          "hba1c": {
+            "count": 1000.0,
+            "mean": 5.28,
+            "std": 0.17,
+            "min": 4.74,
+            "median": 5.29,
+            "max": 5.69,
+            "q25": 5.18,
+            "q75": 5.4,
+            "iqr": 0.22
+          },
+          "total_chol": {
+            "count": 1000.0,
+            "mean": 178.51,
+            "std": 12.27,
+            "min": 135.62,
+            "median": 179.97,
+            "max": 199.99,
+            "q25": 169.93,
+            "q75": 188.06,
+            "iqr": 18.13
+          },
+          "ldl": {
+            "count": 1000.0,
+            "mean": 98.9,
+            "std": 10.71,
+            "min": 56.22,
+            "median": 99.0,
+            "max": 128.01,
+            "q25": 91.99,
+            "q75": 106.57,
+            "iqr": 14.58
+          },
+          "hdl": {
+            "count": 1000.0,
+            "mean": 55.85,
+            "std": 7.79,
+            "min": 40.01,
+            "median": 55.69,
+            "max": 80.99,
+            "q25": 50.22,
+            "q75": 61.15,
+            "iqr": 10.93
+          },
+          "triglycerides": {
+            "count": 1000.0,
+            "mean": 118.75,
+            "std": 15.62,
+            "min": 72.66,
+            "median": 119.1,
+            "max": 149.99,
+            "q25": 107.72,
+            "q75": 130.67,
+            "iqr": 22.95
+          }
+        },
+        "obesity": {
+          "age": {
+            "count": 1000.0,
+            "mean": 43.3,
+            "std": 11.28,
+            "min": 18.01,
+            "median": 43.25,
+            "max": 80.09,
+            "q25": 35.25,
+            "q75": 50.96,
+            "iqr": 15.71
+          },
+          "height": {
+            "count": 1000.0,
+            "mean": 171.31,
+            "std": 9.93,
+            "min": 144.87,
+            "median": 171.16,
+            "max": 202.41,
+            "q25": 164.28,
+            "q75": 178.32,
+            "iqr": 14.04
+          },
+          "weight": {
+            "count": 1000.0,
+            "mean": 96.86,
+            "std": 12.4,
+            "min": 67.04,
+            "median": 95.53,
+            "max": 146.41,
+            "q25": 87.57,
+            "q75": 105.42,
+            "iqr": 17.85
+          },
+          "bmi": {
+            "count": 1000.0,
+            "mean": 32.89,
+            "std": 1.73,
+            "min": 30.0,
+            "median": 32.65,
+            "max": 39.79,
+            "q25": 31.57,
+            "q75": 34.07,
+            "iqr": 2.5
+          },
+          "heart_rate": {
+            "count": 1000.0,
+            "mean": 73.7,
+            "std": 3.71,
+            "min": 62.33,
+            "median": 73.76,
+            "max": 88.59,
+            "q25": 71.0,
+            "q75": 76.23,
+            "iqr": 5.23
+          },
+          "sbp": {
+            "count": 1000.0,
+            "mean": 114.51,
+            "std": 2.87,
+            "min": 104.19,
+            "median": 114.71,
+            "max": 119.99,
+            "q25": 112.56,
+            "q75": 116.57,
+            "iqr": 4.01
+          },
+          "dbp": {
+            "count": 1000.0,
+            "mean": 75.52,
+            "std": 2.41,
+            "min": 66.08,
+            "median": 75.7,
+            "max": 80.0,
+            "q25": 73.97,
+            "q75": 77.31,
+            "iqr": 3.34
+          },
+          "resp_rate": {
+            "count": 1000.0,
+            "mean": 14.95,
+            "std": 1.94,
+            "min": 9.09,
+            "median": 14.93,
+            "max": 22.08,
+            "q25": 13.64,
+            "q75": 16.26,
+            "iqr": 2.63
+          },
+          "temp": {
+            "count": 1000.0,
+            "mean": 36.81,
+            "std": 0.31,
+            "min": 35.72,
+            "median": 36.81,
+            "max": 37.89,
+            "q25": 36.6,
+            "q75": 37.01,
+            "iqr": 0.4
+          },
+          "fasting_glucose": {
+            "count": 1000.0,
+            "mean": 91.72,
+            "std": 4.33,
+            "min": 77.28,
+            "median": 92.1,
+            "max": 99.95,
+            "q25": 88.92,
+            "q75": 94.78,
+            "iqr": 5.86
+          },
+          "hba1c": {
+            "count": 1000.0,
+            "mean": 5.3,
+            "std": 0.16,
+            "min": 4.81,
+            "median": 5.3,
+            "max": 5.7,
+            "q25": 5.18,
+            "q75": 5.41,
+            "iqr": 0.23
+          },
+          "total_chol": {
+            "count": 1000.0,
+            "mean": 179.52,
+            "std": 11.94,
+            "min": 137.92,
+            "median": 180.37,
+            "max": 199.99,
+            "q25": 171.72,
+            "q75": 188.6,
+            "iqr": 16.89
+          },
+          "ldl": {
+            "count": 1000.0,
+            "mean": 101.72,
+            "std": 10.32,
+            "min": 64.0,
+            "median": 102.33,
+            "max": 127.8,
+            "q25": 94.91,
+            "q75": 108.76,
+            "iqr": 13.85
+          },
+          "hdl": {
+            "count": 1000.0,
+            "mean": 53.49,
+            "std": 6.89,
+            "min": 40.0,
+            "median": 53.51,
+            "max": 73.2,
+            "q25": 48.17,
+            "q75": 58.55,
+            "iqr": 10.39
+          },
+          "triglycerides": {
+            "count": 1000.0,
+            "mean": 122.02,
+            "std": 15.48,
+            "min": 77.28,
+            "median": 122.04,
+            "max": 149.97,
+            "q25": 111.02,
+            "q75": 134.23,
+            "iqr": 23.21
+          }
+        }
+      },
+      "categorical_global": {
+        "sex": {
+          "Female": 0.472,
+          "Male": 0.528
+        },
+        "physical_activity": {
+          "High": 0.198,
+          "Moderate": 0.548,
+          "Sedentary": 0.254
+        },
+        "smoking": {
+          "Current": 0.143,
+          "Former": 0.27,
+          "Never": 0.588
+        },
+        "alcohol": {
+          "Excessive": 0.09,
+          "Moderate": 0.475,
+          "None": 0.434
+        },
+        "diet_quality": {
+          "Average": 0.513,
+          "Good": 0.348,
+          "Poor": 0.138
+        }
+      },
+      "categorical_by_class": {
+        "sex": {
+          "cardiovascular_risk": {
+            "Female": 0.471,
+            "Male": 0.529
+          },
+          "diabetes": {
+            "Female": 0.441,
+            "Male": 0.559
+          },
+          "dyslipidemia": {
+            "Female": 0.486,
+            "Male": 0.514
+          },
+          "healthy": {
+            "Female": 0.5,
+            "Male": 0.5
+          },
+          "hypertension": {
+            "Female": 0.456,
+            "Male": 0.544
+          },
+          "obesity": {
+            "Female": 0.48,
+            "Male": 0.52
+          }
+        },
+        "physical_activity": {
+          "cardiovascular_risk": {
+            "High": 0.104,
+            "Moderate": 0.346,
+            "Sedentary": 0.55
+          },
+          "diabetes": {
+            "High": 0.199,
+            "Moderate": 0.598,
+            "Sedentary": 0.203
+          },
+          "dyslipidemia": {
+            "High": 0.261,
+            "Moderate": 0.595,
+            "Sedentary": 0.144
+          },
+          "healthy": {
+            "High": 0.302,
+            "Moderate": 0.551,
+            "Sedentary": 0.147
+          },
+          "hypertension": {
+            "High": 0.217,
+            "Moderate": 0.611,
+            "Sedentary": 0.172
+          },
+          "obesity": {
+            "High": 0.103,
+            "Moderate": 0.586,
+            "Sedentary": 0.311
+          }
+        },
+        "smoking": {
+          "cardiovascular_risk": {
+            "Current": 0.479,
+            "Former": 0.294,
+            "Never": 0.227
+          },
+          "diabetes": {
+            "Current": 0.066,
+            "Former": 0.257,
+            "Never": 0.677
+          },
+          "dyslipidemia": {
+            "Current": 0.085,
+            "Former": 0.304,
+            "Never": 0.611
+          },
+          "healthy": {
+            "Current": 0.085,
+            "Former": 0.199,
+            "Never": 0.716
+          },
+          "hypertension": {
+            "Current": 0.095,
+            "Former": 0.314,
+            "Never": 0.591
+          },
+          "obesity": {
+            "Current": 0.048,
+            "Former": 0.249,
+            "Never": 0.703
+          }
+        },
+        "alcohol": {
+          "cardiovascular_risk": {
+            "Excessive": 0.321,
+            "Moderate": 0.411,
+            "None": 0.268
+          },
+          "diabetes": {
+            "Excessive": 0.033,
+            "Moderate": 0.417,
+            "None": 0.55
+          },
+          "dyslipidemia": {
+            "Excessive": 0.032,
+            "Moderate": 0.506,
+            "None": 0.462
+          },
+          "healthy": {
+            "Excessive": 0.042,
+            "Moderate": 0.509,
+            "None": 0.449
+          },
+          "hypertension": {
+            "Excessive": 0.062,
+            "Moderate": 0.513,
+            "None": 0.425
+          },
+          "obesity": {
+            "Excessive": 0.051,
+            "Moderate": 0.496,
+            "None": 0.453
+          }
+        },
+        "diet_quality": {
+          "cardiovascular_risk": {
+            "Average": 0.394,
+            "Good": 0.153,
+            "Poor": 0.453
+          },
+          "diabetes": {
+            "Average": 0.563,
+            "Good": 0.38,
+            "Poor": 0.057
+          },
+          "dyslipidemia": {
+            "Average": 0.505,
+            "Good": 0.419,
+            "Poor": 0.076
+          },
+          "healthy": {
+            "Average": 0.407,
+            "Good": 0.555,
+            "Poor": 0.038
+          },
+          "hypertension": {
+            "Average": 0.58,
+            "Good": 0.322,
+            "Poor": 0.098
+          },
+          "obesity": {
+            "Average": 0.629,
+            "Good": 0.262,
+            "Poor": 0.109
+          }
+        }
+      }
+    },
+    "epidemiological": {
+      "patterns": [
+        {
+          "class": "diabetes",
+          "variable": "fasting_glucose",
+          "rule": "min_mean",
+          "threshold": 126.0,
+          "observed_mean": 160.3,
+          "passed": true
+        },
+        {
+          "class": "diabetes",
+          "variable": "hba1c",
+          "rule": "min_mean",
+          "threshold": 6.5,
+          "observed_mean": 7.48,
+          "passed": true
+        },
+        {
+          "class": "dyslipidemia",
+          "variable": "ldl",
+          "rule": "min_mean",
+          "threshold": 136.0,
+          "observed_mean": 178.69,
+          "passed": true
+        },
+        {
+          "class": "hypertension",
+          "variable": "sbp",
+          "rule": "min_mean",
+          "threshold": 140.0,
+          "observed_mean": 152.13,
+          "passed": true
+        },
+        {
+          "class": "obesity",
+          "variable": "bmi",
+          "rule": "min_mean",
+          "threshold": 30.0,
+          "observed_mean": 32.89,
+          "passed": true
+        },
+        {
+          "class": "healthy",
+          "variable": "fasting_glucose",
+          "rule": "max_mean",
+          "threshold": 100.0,
+          "observed_mean": 85.86,
+          "passed": true
+        },
+        {
+          "class": "healthy",
+          "variable": "bmi",
+          "rule": "max_mean",
+          "threshold": 25.0,
+          "observed_mean": 21.93,
+          "passed": true
+        },
+        {
+          "class": "healthy",
+          "variable": "sbp",
+          "rule": "max_mean",
+          "threshold": 120.0,
+          "observed_mean": 110.4,
+          "passed": true
+        }
+      ],
+      "n_patterns_passed": 8,
+      "n_patterns_total": 8,
+      "age_ordering": [
+        {
+          "younger_class": "healthy",
+          "older_class": "hypertension",
+          "mean_age_younger": 40.2,
+          "mean_age_older": 56.9,
+          "passed": true
+        },
+        {
+          "younger_class": "healthy",
+          "older_class": "cardiovascular_risk",
+          "mean_age_younger": 40.2,
+          "mean_age_older": 60.0,
+          "passed": true
+        },
+        {
+          "younger_class": "healthy",
+          "older_class": "diabetes",
+          "mean_age_younger": 40.2,
+          "mean_age_older": 54.4,
+          "passed": true
+        }
+      ],
+      "age_ordering_all_passed": true
+    },
+    "empirical_vs_target_correlation": [
+      {
+        "var1": "heart_rate",
+        "var2": "triglycerides",
+        "target": 0.0,
+        "empirical": 0.473,
+        "delta": 0.473
+      },
+      {
+        "var1": "bmi",
+        "var2": "fasting_glucose",
+        "target": 0.3,
+        "empirical": -0.133,
+        "delta": -0.433
+      },
+      {
+        "var1": "bmi",
+        "var2": "sbp",
+        "target": 0.3,
+        "empirical": -0.07,
+        "delta": -0.37
+      },
+      {
+        "var1": "height",
+        "var2": "hdl",
+        "target": 0.0,
+        "empirical": -0.37,
+        "delta": -0.37
+      },
+      {
+        "var1": "bmi",
+        "var2": "hba1c",
+        "target": 0.25,
+        "empirical": -0.11,
+        "delta": -0.36
+      },
+      {
+        "var1": "ldl",
+        "var2": "triglycerides",
+        "target": 0.3,
+        "empirical": 0.642,
+        "delta": 0.342
+      },
+      {
+        "var1": "bmi",
+        "var2": "heart_rate",
+        "target": 0.0,
+        "empirical": 0.306,
+        "delta": 0.306
+      },
+      {
+        "var1": "age",
+        "var2": "triglycerides",
+        "target": 0.0,
+        "empirical": 0.285,
+        "delta": 0.285
+      },
+      {
+        "var1": "heart_rate",
+        "var2": "hdl",
+        "target": 0.0,
+        "empirical": -0.273,
+        "delta": -0.273
+      },
+      {
+        "var1": "ldl",
+        "var2": "hdl",
+        "target": -0.15,
+        "empirical": -0.421,
+        "delta": -0.271
+      },
+      {
+        "var1": "bmi",
+        "var2": "dbp",
+        "target": 0.25,
+        "empirical": -0.018,
+        "delta": -0.268
+      },
+      {
+        "var1": "heart_rate",
+        "var2": "ldl",
+        "target": 0.0,
+        "empirical": 0.261,
+        "delta": 0.261
+      },
+      {
+        "var1": "sbp",
+        "var2": "dbp",
+        "target": 0.7,
+        "empirical": 0.951,
+        "delta": 0.251
+      },
+      {
+        "var1": "heart_rate",
+        "var2": "dbp",
+        "target": 0.0,
+        "empirical": 0.248,
+        "delta": 0.248
+      },
+      {
+        "var1": "age",
+        "var2": "dbp",
+        "target": 0.1,
+        "empirical": 0.342,
+        "delta": 0.242
+      },
+      {
+        "var1": "age",
+        "var2": "heart_rate",
+        "target": 0.0,
+        "empirical": 0.241,
+        "delta": 0.241
+      },
+      {
+        "var1": "dbp",
+        "var2": "triglycerides",
+        "target": 0.0,
+        "empirical": 0.193,
+        "delta": 0.193
+      },
+      {
+        "var1": "bmi",
+        "var2": "ldl",
+        "target": 0.18,
+        "empirical": -0.004,
+        "delta": -0.184
+      },
+      {
+        "var1": "sbp",
+        "var2": "triglycerides",
+        "target": 0.0,
+        "empirical": 0.171,
+        "delta": 0.171
+      },
+      {
+        "var1": "hdl",
+        "var2": "triglycerides",
+        "target": -0.35,
+        "empirical": -0.517,
+        "delta": -0.167
+      },
+      {
+        "var1": "fasting_glucose",
+        "var2": "ldl",
+        "target": 0.0,
+        "empirical": -0.142,
+        "delta": -0.142
+      },
+      {
+        "var1": "dbp",
+        "var2": "fasting_glucose",
+        "target": 0.0,
+        "empirical": -0.141,
+        "delta": -0.141
+      },
+      {
+        "var1": "sbp",
+        "var2": "fasting_glucose",
+        "target": 0.0,
+        "empirical": -0.141,
+        "delta": -0.141
+      },
+      {
+        "var1": "hba1c",
+        "var2": "ldl",
+        "target": 0.0,
+        "empirical": -0.131,
+        "delta": -0.131
+      },
+      {
+        "var1": "fasting_glucose",
+        "var2": "hba1c",
+        "target": 0.85,
+        "empirical": 0.973,
+        "delta": 0.123
+      },
+      {
+        "var1": "sbp",
+        "var2": "hba1c",
+        "target": 0.0,
+        "empirical": -0.12,
+        "delta": -0.12
+      },
+      {
+        "var1": "dbp",
+        "var2": "hba1c",
+        "target": 0.0,
+        "empirical": -0.12,
+        "delta": -0.12
+      },
+      {
+        "var1": "age",
+        "var2": "hdl",
+        "target": -0.1,
+        "empirical": -0.21,
+        "delta": -0.11
+      },
+      {
+        "var1": "heart_rate",
+        "var2": "sbp",
+        "target": 0.15,
+        "empirical": 0.259,
+        "delta": 0.109
+      },
+      {
+        "var1": "heart_rate",
+        "var2": "hba1c",
+        "target": 0.0,
+        "empirical": 0.108,
+        "delta": 0.108
+      },
+      {
+        "var1": "bmi",
+        "var2": "triglycerides",
+        "target": 0.4,
+        "empirical": 0.298,
+        "delta": -0.102
+      },
+      {
+        "var1": "age",
+        "var2": "bmi",
+        "target": 0.0,
+        "empirical": -0.1,
+        "delta": -0.1
+      },
+      {
+        "var1": "age",
+        "var2": "sbp",
+        "target": 0.3,
+        "empirical": 0.393,
+        "delta": 0.093
+      },
+      {
+        "var1": "dbp",
+        "var2": "hdl",
+        "target": 0.0,
+        "empirical": -0.077,
+        "delta": -0.077
+      },
+      {
+        "var1": "heart_rate",
+        "var2": "fasting_glucose",
+        "target": 0.0,
+        "empirical": 0.076,
+        "delta": 0.076
+      },
+      {
+        "var1": "age",
+        "var2": "hba1c",
+        "target": 0.18,
+        "empirical": 0.251,
+        "delta": 0.071
+      },
+      {
+        "var1": "bmi",
+        "var2": "hdl",
+        "target": -0.3,
+        "empirical": -0.233,
+        "delta": 0.067
+      },
+      {
+        "var1": "age",
+        "var2": "ldl",
+        "target": 0.2,
+        "empirical": 0.262,
+        "delta": 0.062
+      },
+      {
+        "var1": "sbp",
+        "var2": "hdl",
+        "target": 0.0,
+        "empirical": -0.058,
+        "delta": -0.058
+      },
+      {
+        "var1": "hba1c",
+        "var2": "triglycerides",
+        "target": 0.0,
+        "empirical": 0.056,
+        "delta": 0.056
+      },
+      {
+        "var1": "sbp",
+        "var2": "ldl",
+        "target": 0.0,
+        "empirical": -0.05,
+        "delta": -0.05
+      },
+      {
+        "var1": "age",
+        "var2": "fasting_glucose",
+        "target": 0.2,
+        "empirical": 0.243,
+        "delta": 0.043
+      },
+      {
+        "var1": "dbp",
+        "var2": "ldl",
+        "target": 0.0,
+        "empirical": -0.04,
+        "delta": -0.04
+      },
+      {
+        "var1": "hba1c",
+        "var2": "hdl",
+        "target": 0.0,
+        "empirical": -0.039,
+        "delta": -0.039
+      },
+      {
+        "var1": "fasting_glucose",
+        "var2": "triglycerides",
+        "target": 0.0,
+        "empirical": 0.029,
+        "delta": 0.029
+      },
+      {
+        "var1": "fasting_glucose",
+        "var2": "hdl",
+        "target": 0.0,
+        "empirical": -0.028,
+        "delta": -0.028
+      },
+      {
+        "var1": "height",
+        "var2": "temp",
+        "target": 0.0,
+        "empirical": -0.027,
+        "delta": -0.027
+      },
+      {
+        "var1": "temp",
+        "var2": "hdl",
+        "target": 0.0,
+        "empirical": 0.019,
+        "delta": 0.019
+      },
+      {
+        "var1": "resp_rate",
+        "var2": "ldl",
+        "target": 0.0,
+        "empirical": 0.019,
+        "delta": 0.019
+      },
+      {
+        "var1": "height",
+        "var2": "fasting_glucose",
+        "target": 0.0,
+        "empirical": 0.016,
+        "delta": 0.016
+      },
+      {
+        "var1": "height",
+        "var2": "heart_rate",
+        "target": 0.0,
+        "empirical": -0.015,
+        "delta": -0.015
+      },
+      {
+        "var1": "resp_rate",
+        "var2": "temp",
+        "target": 0.0,
+        "empirical": 0.013,
+        "delta": 0.013
+      },
+      {
+        "var1": "age",
+        "var2": "resp_rate",
+        "target": 0.0,
+        "empirical": 0.012,
+        "delta": 0.012
+      },
+      {
+        "var1": "height",
+        "var2": "hba1c",
+        "target": 0.0,
+        "empirical": 0.012,
+        "delta": 0.012
+      },
+      {
+        "var1": "bmi",
+        "var2": "temp",
+        "target": 0.0,
+        "empirical": 0.012,
+        "delta": 0.012
+      },
+      {
+        "var1": "temp",
+        "var2": "ldl",
+        "target": 0.0,
+        "empirical": -0.012,
+        "delta": -0.012
+      },
+      {
+        "var1": "resp_rate",
+        "var2": "hba1c",
+        "target": 0.0,
+        "empirical": 0.009,
+        "delta": 0.009
+      },
+      {
+        "var1": "age",
+        "var2": "temp",
+        "target": 0.0,
+        "empirical": -0.008,
+        "delta": -0.008
+      },
+      {
+        "var1": "temp",
+        "var2": "triglycerides",
+        "target": 0.0,
+        "empirical": -0.008,
+        "delta": -0.008
+      },
+      {
+        "var1": "bmi",
+        "var2": "resp_rate",
+        "target": 0.0,
+        "empirical": -0.007,
+        "delta": -0.007
+      },
+      {
+        "var1": "dbp",
+        "var2": "temp",
+        "target": 0.0,
+        "empirical": -0.006,
+        "delta": -0.006
+      },
+      {
+        "var1": "temp",
+        "var2": "fasting_glucose",
+        "target": 0.0,
+        "empirical": -0.005,
+        "delta": -0.005
+      },
+      {
+        "var1": "height",
+        "var2": "sbp",
+        "target": 0.0,
+        "empirical": -0.005,
+        "delta": -0.005
+      },
+      {
+        "var1": "sbp",
+        "var2": "resp_rate",
+        "target": 0.0,
+        "empirical": 0.004,
+        "delta": 0.004
+      },
+      {
+        "var1": "age",
+        "var2": "height",
+        "target": 0.0,
+        "empirical": 0.003,
+        "delta": 0.003
+      },
+      {
+        "var1": "resp_rate",
+        "var2": "fasting_glucose",
+        "target": 0.0,
+        "empirical": 0.003,
+        "delta": 0.003
+      },
+      {
+        "var1": "resp_rate",
+        "var2": "hdl",
+        "target": 0.0,
+        "empirical": 0.003,
+        "delta": 0.003
+      },
+      {
+        "var1": "heart_rate",
+        "var2": "resp_rate",
+        "target": 0.0,
+        "empirical": 0.003,
+        "delta": 0.003
+      },
+      {
+        "var1": "sbp",
+        "var2": "temp",
+        "target": 0.0,
+        "empirical": -0.002,
+        "delta": -0.002
+      },
+      {
+        "var1": "height",
+        "var2": "bmi",
+        "target": 0.0,
+        "empirical": 0.002,
+        "delta": 0.002
+      },
+      {
+        "var1": "height",
+        "var2": "triglycerides",
+        "target": 0.0,
+        "empirical": 0.002,
+        "delta": 0.002
+      },
+      {
+        "var1": "dbp",
+        "var2": "resp_rate",
+        "target": 0.0,
+        "empirical": 0.002,
+        "delta": 0.002
+      },
+      {
+        "var1": "heart_rate",
+        "var2": "temp",
+        "target": 0.0,
+        "empirical": -0.001,
+        "delta": -0.001
+      },
+      {
+        "var1": "height",
+        "var2": "dbp",
+        "target": 0.0,
+        "empirical": 0.0,
+        "delta": 0.0
+      },
+      {
+        "var1": "height",
+        "var2": "resp_rate",
+        "target": 0.0,
+        "empirical": -0.0,
+        "delta": -0.0
+      },
+      {
+        "var1": "resp_rate",
+        "var2": "triglycerides",
+        "target": 0.0,
+        "empirical": -0.0,
+        "delta": -0.0
+      },
+      {
+        "var1": "temp",
+        "var2": "hba1c",
+        "target": 0.0,
+        "empirical": -0.0,
+        "delta": -0.0
+      },
+      {
+        "var1": "height",
+        "var2": "ldl",
+        "target": 0.0,
+        "empirical": 0.0,
+        "delta": 0.0
+      }
+    ],
+    "generation_stats": {
+      "total_attempts": 9638,
+      "total_accepted": 6000,
+      "total_rejected": 3638,
+      "global_rejection_rate": 0.37746420419174104,
+      "average_attempts_per_accepted": 1.6063333333333334,
+      "rejection_rate_by_class": {
+        "healthy": 0.16943521594684385,
+        "diabetes": 0.3610223642172524,
+        "dyslipidemia": 0.26847110460863205,
+        "hypertension": 0.44994499449944997,
+        "obesity": 0.6270048489369638,
+        "cardiovascular_risk": 0.0029910269192422734
+      },
+      "rejections_per_rule": {
+        "class_coherence": 3453,
+        "bounds": 168,
+        "R2_friedewald": 8,
+        "R4_glucose_hba1c": 9
+      },
+      "rejections_per_rule_per_class": {
+        "healthy": {
+          "class_coherence": 91,
+          "bounds": 112,
+          "R2_friedewald": 1
+        },
+        "diabetes": {
+          "class_coherence": 549,
+          "R2_friedewald": 1,
+          "R4_glucose_hba1c": 9,
+          "bounds": 6
+        },
+        "dyslipidemia": {
+          "class_coherence": 358,
+          "bounds": 7,
+          "R2_friedewald": 2
+        },
+        "hypertension": {
+          "class_coherence": 807,
+          "bounds": 11
+        },
+        "obesity": {
+          "class_coherence": 1648,
+          "bounds": 31,
+          "R2_friedewald": 2
+        },
+        "cardiovascular_risk": {
+          "bounds": 1,
+          "R2_friedewald": 2
+        }
+      }
+    }
+  },
+  "ctgan": {
+    "descriptive": {
+      "n_total": 6000,
+      "n_by_class": {
+        "healthy": 1000,
+        "diabetes": 1000,
+        "dyslipidemia": 1000,
+        "hypertension": 1000,
+        "obesity": 1000,
+        "cardiovascular_risk": 1000
+      },
+      "continuous_global": {
+        "age": {
+          "count": 6000.0,
+          "mean": 50.1,
+          "std": 15.35,
+          "min": 18.01,
+          "q25": 39.18,
+          "median": 50.33,
+          "q75": 61.99,
+          "max": 89.77,
+          "iqr": 22.81
+        },
+        "height": {
+          "count": 6000.0,
+          "mean": 174.23,
+          "std": 10.81,
+          "min": 147.89,
+          "q25": 165.03,
+          "median": 172.59,
+          "q75": 183.96,
+          "max": 202.55,
+          "iqr": 18.93
+        },
+        "weight": {
+          "count": 6000.0,
+          "mean": 76.44,
+          "std": 16.99,
+          "min": 45.75,
+          "q25": 63.01,
+          "median": 73.81,
+          "q75": 84.19,
+          "max": 144.64,
+          "iqr": 21.18
+        },
+        "bmi": {
+          "count": 6000.0,
+          "mean": 25.06,
+          "std": 4.4,
+          "min": 17.54,
+          "q25": 22.05,
+          "median": 23.04,
+          "q75": 27.31,
+          "max": 37.71,
+          "iqr": 5.26
+        },
+        "heart_rate": {
+          "count": 6000.0,
+          "mean": 71.98,
+          "std": 7.46,
+          "min": 45.99,
+          "q25": 67.3,
+          "median": 71.35,
+          "q75": 76.26,
+          "max": 93.87,
+          "iqr": 8.96
+        },
+        "sbp": {
+          "count": 6000.0,
+          "mean": 120.9,
+          "std": 14.22,
+          "min": 92.29,
+          "q25": 111.94,
+          "median": 115.29,
+          "q75": 128.5,
+          "max": 163.38,
+          "iqr": 16.56
+        },
+        "dbp": {
+          "count": 6000.0,
+          "mean": 78.6,
+          "std": 8.63,
+          "min": 59.59,
+          "q25": 73.01,
+          "median": 75.87,
+          "q75": 83.04,
+          "max": 103.78,
+          "iqr": 10.04
+        },
+        "resp_rate": {
+          "count": 6000.0,
+          "mean": 15.41,
+          "std": 2.04,
+          "min": 9.1,
+          "q25": 13.92,
+          "median": 15.8,
+          "q75": 16.96,
+          "max": 19.92,
+          "iqr": 3.04
+        },
+        "temp": {
+          "count": 6000.0,
+          "mean": 36.91,
+          "std": 0.25,
+          "min": 36.09,
+          "q25": 36.74,
+          "median": 36.92,
+          "q75": 37.07,
+          "max": 37.77,
+          "iqr": 0.33
+        },
+        "fasting_glucose": {
+          "count": 6000.0,
+          "mean": 104.92,
+          "std": 28.16,
+          "min": 68.81,
+          "q25": 88.05,
+          "median": 92.69,
+          "q75": 111.41,
+          "max": 207.47,
+          "iqr": 23.36
+        },
+        "hba1c": {
+          "count": 6000.0,
+          "mean": 5.81,
+          "std": 1.03,
+          "min": 4.62,
+          "q25": 5.19,
+          "median": 5.35,
+          "q75": 6.08,
+          "max": 9.48,
+          "iqr": 0.89
+        },
+        "total_chol": {
+          "count": 6000.0,
+          "mean": 195.66,
+          "std": 37.62,
+          "min": 114.18,
+          "q25": 169.11,
+          "median": 184.64,
+          "q75": 224.79,
+          "max": 303.81,
+          "iqr": 55.68
+        },
+        "ldl": {
+          "count": 6000.0,
+          "mean": 115.48,
+          "std": 36.14,
+          "min": 46.56,
+          "q25": 90.12,
+          "median": 104.07,
+          "q75": 144.86,
+          "max": 201.75,
+          "iqr": 54.74
+        },
+        "hdl": {
+          "count": 6000.0,
+          "mean": 54.82,
+          "std": 9.92,
+          "min": 28.45,
+          "q25": 47.27,
+          "median": 54.97,
+          "q75": 60.9,
+          "max": 90.37,
+          "iqr": 13.63
+        },
+        "triglycerides": {
+          "count": 6000.0,
+          "mean": 127.02,
+          "std": 31.91,
+          "min": 44.07,
+          "q25": 107.94,
+          "median": 123.0,
+          "q75": 140.4,
+          "max": 219.51,
+          "iqr": 32.46
+        }
+      },
+      "continuous_by_class": {
+        "cardiovascular_risk": {
+          "age": {
+            "count": 1000.0,
+            "mean": 60.34,
+            "std": 10.67,
+            "min": 21.11,
+            "median": 61.68,
+            "max": 87.44,
+            "q25": 52.12,
+            "q75": 68.49,
+            "iqr": 16.37
+          },
+          "height": {
+            "count": 1000.0,
+            "mean": 173.84,
+            "std": 9.47,
+            "min": 153.03,
+            "median": 171.61,
+            "max": 198.01,
+            "q25": 166.57,
+            "q75": 181.96,
+            "iqr": 15.39
+          },
+          "weight": {
+            "count": 1000.0,
+            "mean": 82.48,
+            "std": 13.15,
+            "min": 48.93,
+            "median": 80.38,
+            "max": 134.74,
+            "q25": 73.83,
+            "q75": 90.97,
+            "iqr": 17.14
+          },
+          "bmi": {
+            "count": 1000.0,
+            "mean": 27.19,
+            "std": 2.88,
+            "min": 20.3,
+            "median": 27.28,
+            "max": 36.17,
+            "q25": 26.38,
+            "q75": 28.12,
+            "iqr": 1.74
+          },
+          "heart_rate": {
+            "count": 1000.0,
+            "mean": 82.42,
+            "std": 5.39,
+            "min": 60.59,
+            "median": 83.2,
+            "max": 93.87,
+            "q25": 78.95,
+            "q75": 86.54,
+            "iqr": 7.59
+          },
+          "sbp": {
+            "count": 1000.0,
+            "mean": 128.3,
+            "std": 7.42,
+            "min": 102.53,
+            "median": 128.46,
+            "max": 161.55,
+            "q25": 125.77,
+            "q75": 131.15,
+            "iqr": 5.38
+          },
+          "dbp": {
+            "count": 1000.0,
+            "mean": 82.99,
+            "std": 5.61,
+            "min": 65.32,
+            "median": 83.48,
+            "max": 100.36,
+            "q25": 81.14,
+            "q75": 85.01,
+            "iqr": 3.87
+          },
+          "resp_rate": {
+            "count": 1000.0,
+            "mean": 15.01,
+            "std": 2.04,
+            "min": 9.1,
+            "median": 15.44,
+            "max": 19.72,
+            "q25": 13.69,
+            "q75": 16.52,
+            "iqr": 2.83
+          },
+          "temp": {
+            "count": 1000.0,
+            "mean": 36.86,
+            "std": 0.25,
+            "min": 36.13,
+            "median": 36.88,
+            "max": 37.61,
+            "q25": 36.67,
+            "q75": 37.01,
+            "iqr": 0.34
+          },
+          "fasting_glucose": {
+            "count": 1000.0,
+            "mean": 109.42,
+            "std": 13.27,
+            "min": 80.67,
+            "median": 111.39,
+            "max": 187.01,
+            "q25": 106.48,
+            "q75": 114.41,
+            "iqr": 7.94
+          },
+          "hba1c": {
+            "count": 1000.0,
+            "mean": 6.04,
+            "std": 0.42,
+            "min": 5.01,
+            "median": 6.08,
+            "max": 8.77,
+            "q25": 5.96,
+            "q75": 6.17,
+            "iqr": 0.2
+          },
+          "total_chol": {
+            "count": 1000.0,
+            "mean": 223.84,
+            "std": 19.71,
+            "min": 139.98,
+            "median": 225.25,
+            "max": 288.94,
+            "q25": 216.47,
+            "q75": 234.4,
+            "iqr": 17.93
+          },
+          "ldl": {
+            "count": 1000.0,
+            "mean": 143.08,
+            "std": 17.06,
+            "min": 70.23,
+            "median": 145.07,
+            "max": 194.74,
+            "q25": 140.73,
+            "q75": 149.06,
+            "iqr": 8.32
+          },
+          "hdl": {
+            "count": 1000.0,
+            "mean": 46.02,
+            "std": 8.03,
+            "min": 28.45,
+            "median": 44.15,
+            "max": 71.5,
+            "q25": 39.94,
+            "q75": 51.93,
+            "iqr": 11.99
+          },
+          "triglycerides": {
+            "count": 1000.0,
+            "mean": 174.31,
+            "std": 22.85,
+            "min": 82.63,
+            "median": 178.05,
+            "max": 219.51,
+            "q25": 167.19,
+            "q75": 188.9,
+            "iqr": 21.71
+          }
+        },
+        "diabetes": {
+          "age": {
+            "count": 1000.0,
+            "mean": 57.17,
+            "std": 11.66,
+            "min": 23.87,
+            "median": 57.97,
+            "max": 85.73,
+            "q25": 47.67,
+            "q75": 66.13,
+            "iqr": 18.46
+          },
+          "height": {
+            "count": 1000.0,
+            "mean": 176.72,
+            "std": 10.89,
+            "min": 152.12,
+            "median": 179.4,
+            "max": 199.52,
+            "q25": 166.72,
+            "q75": 185.47,
+            "iqr": 18.76
+          },
+          "weight": {
+            "count": 1000.0,
+            "mean": 69.52,
+            "std": 8.88,
+            "min": 45.97,
+            "median": 70.6,
+            "max": 91.22,
+            "q25": 61.94,
+            "q75": 75.98,
+            "iqr": 14.04
+          },
+          "bmi": {
+            "count": 1000.0,
+            "mean": 22.18,
+            "std": 0.95,
+            "min": 18.72,
+            "median": 22.17,
+            "max": 24.99,
+            "q25": 21.55,
+            "q75": 22.78,
+            "iqr": 1.23
+          },
+          "heart_rate": {
+            "count": 1000.0,
+            "mean": 71.05,
+            "std": 4.77,
+            "min": 53.51,
+            "median": 71.07,
+            "max": 85.37,
+            "q25": 68.05,
+            "q75": 74.48,
+            "iqr": 6.44
+          },
+          "sbp": {
+            "count": 1000.0,
+            "mean": 112.95,
+            "std": 3.12,
+            "min": 98.95,
+            "median": 113.39,
+            "max": 119.86,
+            "q25": 111.02,
+            "q75": 115.12,
+            "iqr": 4.11
+          },
+          "dbp": {
+            "count": 1000.0,
+            "mean": 73.33,
+            "std": 2.91,
+            "min": 62.2,
+            "median": 73.68,
+            "max": 79.96,
+            "q25": 71.41,
+            "q75": 75.48,
+            "iqr": 4.07
+          },
+          "resp_rate": {
+            "count": 1000.0,
+            "mean": 16.0,
+            "std": 1.88,
+            "min": 9.9,
+            "median": 16.45,
+            "max": 19.92,
+            "q25": 15.13,
+            "q75": 17.3,
+            "iqr": 2.17
+          },
+          "temp": {
+            "count": 1000.0,
+            "mean": 36.93,
+            "std": 0.27,
+            "min": 36.16,
+            "median": 36.95,
+            "max": 37.73,
+            "q25": 36.75,
+            "q75": 37.11,
+            "iqr": 0.36
+          },
+          "fasting_glucose": {
+            "count": 1000.0,
+            "mean": 161.99,
+            "std": 15.95,
+            "min": 102.08,
+            "median": 162.94,
+            "max": 207.47,
+            "q25": 151.27,
+            "q75": 172.97,
+            "iqr": 21.71
+          },
+          "hba1c": {
+            "count": 1000.0,
+            "mean": 7.91,
+            "std": 0.6,
+            "min": 5.8,
+            "median": 7.94,
+            "max": 9.48,
+            "q25": 7.52,
+            "q75": 8.28,
+            "iqr": 0.76
+          },
+          "total_chol": {
+            "count": 1000.0,
+            "mean": 176.82,
+            "std": 13.58,
+            "min": 123.7,
+            "median": 178.77,
+            "max": 199.85,
+            "q25": 168.02,
+            "q75": 186.81,
+            "iqr": 18.79
+          },
+          "ldl": {
+            "count": 1000.0,
+            "mean": 97.92,
+            "std": 11.67,
+            "min": 53.09,
+            "median": 100.19,
+            "max": 121.79,
+            "q25": 90.73,
+            "q75": 106.71,
+            "iqr": 15.98
+          },
+          "hdl": {
+            "count": 1000.0,
+            "mean": 55.86,
+            "std": 8.81,
+            "min": 40.28,
+            "median": 54.92,
+            "max": 86.58,
+            "q25": 49.46,
+            "q75": 61.27,
+            "iqr": 11.81
+          },
+          "triglycerides": {
+            "count": 1000.0,
+            "mean": 115.24,
+            "std": 16.89,
+            "min": 55.07,
+            "median": 115.25,
+            "max": 149.63,
+            "q25": 106.68,
+            "q75": 127.2,
+            "iqr": 20.52
+          }
+        },
+        "dyslipidemia": {
+          "age": {
+            "count": 1000.0,
+            "mean": 48.0,
+            "std": 13.05,
+            "min": 18.01,
+            "median": 49.06,
+            "max": 83.42,
+            "q25": 39.85,
+            "q75": 57.69,
+            "iqr": 17.84
+          },
+          "height": {
+            "count": 1000.0,
+            "mean": 173.78,
+            "std": 10.8,
+            "min": 152.23,
+            "median": 171.94,
+            "max": 201.79,
+            "q25": 164.41,
+            "q75": 183.54,
+            "iqr": 19.13
+          },
+          "weight": {
+            "count": 1000.0,
+            "mean": 67.94,
+            "std": 9.17,
+            "min": 45.84,
+            "median": 66.35,
+            "max": 98.15,
+            "q25": 60.52,
+            "q75": 75.42,
+            "iqr": 14.9
+          },
+          "bmi": {
+            "count": 1000.0,
+            "mean": 22.4,
+            "std": 0.95,
+            "min": 17.54,
+            "median": 22.39,
+            "max": 24.99,
+            "q25": 21.77,
+            "q75": 23.04,
+            "iqr": 1.27
+          },
+          "heart_rate": {
+            "count": 1000.0,
+            "mean": 68.21,
+            "std": 5.79,
+            "min": 51.07,
+            "median": 68.22,
+            "max": 88.27,
+            "q25": 63.9,
+            "q75": 72.32,
+            "iqr": 8.43
+          },
+          "sbp": {
+            "count": 1000.0,
+            "mean": 114.07,
+            "std": 3.04,
+            "min": 102.12,
+            "median": 114.46,
+            "max": 119.97,
+            "q25": 112.36,
+            "q75": 116.26,
+            "iqr": 3.9
+          },
+          "dbp": {
+            "count": 1000.0,
+            "mean": 74.79,
+            "std": 2.71,
+            "min": 59.74,
+            "median": 75.16,
+            "max": 79.99,
+            "q25": 73.21,
+            "q75": 76.82,
+            "iqr": 3.62
+          },
+          "resp_rate": {
+            "count": 1000.0,
+            "mean": 15.56,
+            "std": 2.05,
+            "min": 9.6,
+            "median": 16.02,
+            "max": 19.7,
+            "q25": 14.0,
+            "q75": 17.16,
+            "iqr": 3.16
+          },
+          "temp": {
+            "count": 1000.0,
+            "mean": 36.89,
+            "std": 0.24,
+            "min": 36.11,
+            "median": 36.92,
+            "max": 37.62,
+            "q25": 36.75,
+            "q75": 37.04,
+            "iqr": 0.28
+          },
+          "fasting_glucose": {
+            "count": 1000.0,
+            "mean": 88.42,
+            "std": 4.55,
+            "min": 72.99,
+            "median": 88.47,
+            "max": 99.54,
+            "q25": 85.25,
+            "q75": 91.65,
+            "iqr": 6.4
+          },
+          "hba1c": {
+            "count": 1000.0,
+            "mean": 5.17,
+            "std": 0.16,
+            "min": 4.62,
+            "median": 5.17,
+            "max": 5.57,
+            "q25": 5.06,
+            "q75": 5.29,
+            "iqr": 0.22
+          },
+          "total_chol": {
+            "count": 1000.0,
+            "mean": 258.13,
+            "std": 16.88,
+            "min": 129.23,
+            "median": 258.99,
+            "max": 303.81,
+            "q25": 250.9,
+            "q75": 267.46,
+            "iqr": 16.56
+          },
+          "ldl": {
+            "count": 1000.0,
+            "mean": 176.44,
+            "std": 13.06,
+            "min": 77.88,
+            "median": 177.54,
+            "max": 201.75,
+            "q25": 171.71,
+            "q75": 183.19,
+            "iqr": 11.48
+          },
+          "hdl": {
+            "count": 1000.0,
+            "mean": 53.11,
+            "std": 8.44,
+            "min": 31.39,
+            "median": 53.6,
+            "max": 86.28,
+            "q25": 46.31,
+            "q75": 59.06,
+            "iqr": 12.75
+          },
+          "triglycerides": {
+            "count": 1000.0,
+            "mean": 142.43,
+            "std": 21.73,
+            "min": 67.35,
+            "median": 137.58,
+            "max": 207.98,
+            "q25": 129.87,
+            "q75": 157.52,
+            "iqr": 27.64
+          }
+        },
+        "healthy": {
+          "age": {
+            "count": 1000.0,
+            "mean": 40.21,
+            "std": 11.88,
+            "min": 18.01,
+            "median": 39.46,
+            "max": 79.37,
+            "q25": 32.53,
+            "q75": 47.41,
+            "iqr": 14.89
+          },
+          "height": {
+            "count": 1000.0,
+            "mean": 172.49,
+            "std": 11.31,
+            "min": 147.89,
+            "median": 169.52,
+            "max": 197.01,
+            "q25": 162.8,
+            "q75": 182.73,
+            "iqr": 19.93
+          },
+          "weight": {
+            "count": 1000.0,
+            "mean": 66.62,
+            "std": 9.63,
+            "min": 45.75,
+            "median": 64.61,
+            "max": 105.13,
+            "q25": 58.67,
+            "q75": 74.19,
+            "iqr": 15.52
+          },
+          "bmi": {
+            "count": 1000.0,
+            "mean": 22.3,
+            "std": 1.32,
+            "min": 18.49,
+            "median": 22.23,
+            "max": 29.97,
+            "q25": 21.53,
+            "q75": 22.93,
+            "iqr": 1.41
+          },
+          "heart_rate": {
+            "count": 1000.0,
+            "mean": 65.96,
+            "std": 6.1,
+            "min": 45.99,
+            "median": 65.65,
+            "max": 86.73,
+            "q25": 61.54,
+            "q75": 69.73,
+            "iqr": 8.19
+          },
+          "sbp": {
+            "count": 1000.0,
+            "mean": 108.97,
+            "std": 5.95,
+            "min": 92.29,
+            "median": 109.3,
+            "max": 139.48,
+            "q25": 105.21,
+            "q75": 112.45,
+            "iqr": 7.25
+          },
+          "dbp": {
+            "count": 1000.0,
+            "mean": 71.8,
+            "std": 4.15,
+            "min": 59.59,
+            "median": 72.2,
+            "max": 89.67,
+            "q25": 69.18,
+            "q75": 74.56,
+            "iqr": 5.38
+          },
+          "resp_rate": {
+            "count": 1000.0,
+            "mean": 15.7,
+            "std": 2.0,
+            "min": 10.33,
+            "median": 16.04,
+            "max": 19.92,
+            "q25": 14.29,
+            "q75": 17.28,
+            "iqr": 2.98
+          },
+          "temp": {
+            "count": 1000.0,
+            "mean": 36.91,
+            "std": 0.25,
+            "min": 36.09,
+            "median": 36.92,
+            "max": 37.6,
+            "q25": 36.75,
+            "q75": 37.07,
+            "iqr": 0.31
+          },
+          "fasting_glucose": {
+            "count": 1000.0,
+            "mean": 86.51,
+            "std": 5.3,
+            "min": 68.81,
+            "median": 86.71,
+            "max": 125.66,
+            "q25": 82.98,
+            "q75": 89.89,
+            "iqr": 6.91
+          },
+          "hba1c": {
+            "count": 1000.0,
+            "mean": 5.16,
+            "std": 0.19,
+            "min": 4.62,
+            "median": 5.16,
+            "max": 6.49,
+            "q25": 5.05,
+            "q75": 5.27,
+            "iqr": 0.22
+          },
+          "total_chol": {
+            "count": 1000.0,
+            "mean": 161.45,
+            "std": 18.03,
+            "min": 114.18,
+            "median": 161.32,
+            "max": 238.7,
+            "q25": 148.98,
+            "q75": 173.04,
+            "iqr": 24.06
+          },
+          "ldl": {
+            "count": 1000.0,
+            "mean": 79.51,
+            "std": 16.54,
+            "min": 46.56,
+            "median": 80.33,
+            "max": 158.82,
+            "q25": 67.51,
+            "q75": 90.08,
+            "iqr": 22.56
+          },
+          "hdl": {
+            "count": 1000.0,
+            "mean": 62.58,
+            "std": 10.68,
+            "min": 40.22,
+            "median": 61.84,
+            "max": 90.37,
+            "q25": 55.36,
+            "q75": 69.69,
+            "iqr": 14.33
+          },
+          "triglycerides": {
+            "count": 1000.0,
+            "mean": 96.64,
+            "std": 25.15,
+            "min": 44.07,
+            "median": 94.03,
+            "max": 178.99,
+            "q25": 76.18,
+            "q75": 114.41,
+            "iqr": 38.22
+          }
+        },
+        "hypertension": {
+          "age": {
+            "count": 1000.0,
+            "mean": 60.32,
+            "std": 11.93,
+            "min": 21.15,
+            "median": 60.11,
+            "max": 89.77,
+            "q25": 52.12,
+            "q75": 69.92,
+            "iqr": 17.81
+          },
+          "height": {
+            "count": 1000.0,
+            "mean": 172.9,
+            "std": 10.6,
+            "min": 151.3,
+            "median": 169.71,
+            "max": 200.41,
+            "q25": 164.34,
+            "q75": 182.74,
+            "iqr": 18.4
+          },
+          "weight": {
+            "count": 1000.0,
+            "mean": 68.82,
+            "std": 9.05,
+            "min": 47.39,
+            "median": 66.92,
+            "max": 93.09,
+            "q25": 61.51,
+            "q75": 76.18,
+            "iqr": 14.67
+          },
+          "bmi": {
+            "count": 1000.0,
+            "mean": 22.93,
+            "std": 0.97,
+            "min": 19.44,
+            "median": 22.99,
+            "max": 24.99,
+            "q25": 22.3,
+            "q75": 23.6,
+            "iqr": 1.3
+          },
+          "heart_rate": {
+            "count": 1000.0,
+            "mean": 71.99,
+            "std": 5.13,
+            "min": 54.46,
+            "median": 71.32,
+            "max": 90.48,
+            "q25": 68.5,
+            "q75": 75.21,
+            "iqr": 6.71
+          },
+          "sbp": {
+            "count": 1000.0,
+            "mean": 147.3,
+            "std": 6.28,
+            "min": 112.37,
+            "median": 147.56,
+            "max": 163.38,
+            "q25": 143.86,
+            "q75": 151.37,
+            "iqr": 7.5
+          },
+          "dbp": {
+            "count": 1000.0,
+            "mean": 93.36,
+            "std": 6.33,
+            "min": 62.52,
+            "median": 94.9,
+            "max": 103.78,
+            "q25": 92.28,
+            "q75": 96.83,
+            "iqr": 4.54
+          },
+          "resp_rate": {
+            "count": 1000.0,
+            "mean": 15.15,
+            "std": 2.07,
+            "min": 9.82,
+            "median": 15.51,
+            "max": 19.69,
+            "q25": 13.44,
+            "q75": 16.72,
+            "iqr": 3.28
+          },
+          "temp": {
+            "count": 1000.0,
+            "mean": 36.92,
+            "std": 0.27,
+            "min": 36.14,
+            "median": 36.93,
+            "max": 37.69,
+            "q25": 36.75,
+            "q75": 37.1,
+            "iqr": 0.35
+          },
+          "fasting_glucose": {
+            "count": 1000.0,
+            "mean": 91.81,
+            "std": 4.11,
+            "min": 75.28,
+            "median": 92.31,
+            "max": 99.97,
+            "q25": 89.16,
+            "q75": 94.88,
+            "iqr": 5.71
+          },
+          "hba1c": {
+            "count": 1000.0,
+            "mean": 5.33,
+            "std": 0.13,
+            "min": 4.86,
+            "median": 5.34,
+            "max": 5.66,
+            "q25": 5.25,
+            "q75": 5.42,
+            "iqr": 0.18
+          },
+          "total_chol": {
+            "count": 1000.0,
+            "mean": 175.27,
+            "std": 13.74,
+            "min": 126.23,
+            "median": 176.7,
+            "max": 199.09,
+            "q25": 166.44,
+            "q75": 185.89,
+            "iqr": 19.45
+          },
+          "ldl": {
+            "count": 1000.0,
+            "mean": 94.86,
+            "std": 11.21,
+            "min": 56.58,
+            "median": 96.21,
+            "max": 120.65,
+            "q25": 87.71,
+            "q75": 103.36,
+            "iqr": 15.65
+          },
+          "hdl": {
+            "count": 1000.0,
+            "mean": 57.22,
+            "std": 8.28,
+            "min": 40.0,
+            "median": 58.17,
+            "max": 79.01,
+            "q25": 51.62,
+            "q75": 63.12,
+            "iqr": 11.5
+          },
+          "triglycerides": {
+            "count": 1000.0,
+            "mean": 116.44,
+            "std": 15.11,
+            "min": 62.19,
+            "median": 115.51,
+            "max": 149.66,
+            "q25": 107.41,
+            "q75": 125.84,
+            "iqr": 18.43
+          }
+        },
+        "obesity": {
+          "age": {
+            "count": 1000.0,
+            "mean": 34.56,
+            "std": 10.37,
+            "min": 18.01,
+            "median": 34.0,
+            "max": 72.59,
+            "q25": 25.41,
+            "q75": 42.11,
+            "iqr": 16.7
+          },
+          "height": {
+            "count": 1000.0,
+            "mean": 175.63,
+            "std": 11.11,
+            "min": 152.99,
+            "median": 174.68,
+            "max": 202.55,
+            "q25": 165.9,
+            "q75": 185.34,
+            "iqr": 19.45
+          },
+          "weight": {
+            "count": 1000.0,
+            "mean": 103.28,
+            "std": 13.8,
+            "min": 74.19,
+            "median": 102.16,
+            "max": 144.64,
+            "q25": 92.34,
+            "q75": 113.58,
+            "iqr": 21.24
+          },
+          "bmi": {
+            "count": 1000.0,
+            "mean": 33.36,
+            "std": 1.58,
+            "min": 30.06,
+            "median": 33.31,
+            "max": 37.71,
+            "q25": 32.15,
+            "q75": 34.43,
+            "iqr": 2.28
+          },
+          "heart_rate": {
+            "count": 1000.0,
+            "mean": 72.28,
+            "std": 4.97,
+            "min": 52.44,
+            "median": 71.93,
+            "max": 86.63,
+            "q25": 69.4,
+            "q75": 74.98,
+            "iqr": 5.58
+          },
+          "sbp": {
+            "count": 1000.0,
+            "mean": 113.83,
+            "std": 3.42,
+            "min": 96.97,
+            "median": 114.49,
+            "max": 119.85,
+            "q25": 112.21,
+            "q75": 116.28,
+            "iqr": 4.07
+          },
+          "dbp": {
+            "count": 1000.0,
+            "mean": 75.32,
+            "std": 2.41,
+            "min": 65.79,
+            "median": 75.6,
+            "max": 79.93,
+            "q25": 73.76,
+            "q75": 77.13,
+            "iqr": 3.37
+          },
+          "resp_rate": {
+            "count": 1000.0,
+            "mean": 15.02,
+            "std": 2.03,
+            "min": 9.89,
+            "median": 15.31,
+            "max": 19.66,
+            "q25": 13.4,
+            "q75": 16.52,
+            "iqr": 3.12
+          },
+          "temp": {
+            "count": 1000.0,
+            "mean": 36.92,
+            "std": 0.25,
+            "min": 36.13,
+            "median": 36.92,
+            "max": 37.77,
+            "q25": 36.76,
+            "q75": 37.08,
+            "iqr": 0.32
+          },
+          "fasting_glucose": {
+            "count": 1000.0,
+            "mean": 91.4,
+            "std": 4.1,
+            "min": 73.42,
+            "median": 91.72,
+            "max": 99.95,
+            "q25": 89.04,
+            "q75": 94.25,
+            "iqr": 5.21
+          },
+          "hba1c": {
+            "count": 1000.0,
+            "mean": 5.29,
+            "std": 0.15,
+            "min": 4.78,
+            "median": 5.3,
+            "max": 5.68,
+            "q25": 5.21,
+            "q75": 5.4,
+            "iqr": 0.19
+          },
+          "total_chol": {
+            "count": 1000.0,
+            "mean": 178.43,
+            "std": 13.56,
+            "min": 127.55,
+            "median": 180.25,
+            "max": 199.83,
+            "q25": 170.0,
+            "q75": 188.93,
+            "iqr": 18.93
+          },
+          "ldl": {
+            "count": 1000.0,
+            "mean": 101.04,
+            "std": 11.23,
+            "min": 60.25,
+            "median": 103.07,
+            "max": 124.13,
+            "q25": 93.77,
+            "q75": 109.3,
+            "iqr": 15.53
+          },
+          "hdl": {
+            "count": 1000.0,
+            "mean": 54.15,
+            "std": 6.82,
+            "min": 40.08,
+            "median": 54.74,
+            "max": 78.26,
+            "q25": 49.91,
+            "q75": 58.66,
+            "iqr": 8.75
+          },
+          "triglycerides": {
+            "count": 1000.0,
+            "mean": 117.07,
+            "std": 15.01,
+            "min": 65.18,
+            "median": 117.9,
+            "max": 149.78,
+            "q25": 108.71,
+            "q75": 126.62,
+            "iqr": 17.91
+          }
+        }
+      },
+      "categorical_global": {
+        "sex": {
+          "Female": 0.49,
+          "Male": 0.51
+        },
+        "physical_activity": {
+          "High": 0.143,
+          "Moderate": 0.67,
+          "Sedentary": 0.187
+        },
+        "smoking": {
+          "Current": 0.103,
+          "Former": 0.19,
+          "Never": 0.707
+        },
+        "alcohol": {
+          "Excessive": 0.114,
+          "Moderate": 0.412,
+          "None": 0.474
+        },
+        "diet_quality": {
+          "Average": 0.336,
+          "Good": 0.529,
+          "Poor": 0.134
+        }
+      },
+      "categorical_by_class": {
+        "sex": {
+          "cardiovascular_risk": {
+            "Female": 0.505,
+            "Male": 0.495
+          },
+          "diabetes": {
+            "Female": 0.424,
+            "Male": 0.576
+          },
+          "dyslipidemia": {
+            "Female": 0.72,
+            "Male": 0.28
+          },
+          "healthy": {
+            "Female": 0.571,
+            "Male": 0.429
+          },
+          "hypertension": {
+            "Female": 0.356,
+            "Male": 0.644
+          },
+          "obesity": {
+            "Female": 0.364,
+            "Male": 0.636
+          }
+        },
+        "physical_activity": {
+          "cardiovascular_risk": {
+            "High": 0.097,
+            "Moderate": 0.523,
+            "Sedentary": 0.38
+          },
+          "diabetes": {
+            "High": 0.108,
+            "Moderate": 0.75,
+            "Sedentary": 0.142
+          },
+          "dyslipidemia": {
+            "High": 0.206,
+            "Moderate": 0.667,
+            "Sedentary": 0.127
+          },
+          "healthy": {
+            "High": 0.236,
+            "Moderate": 0.537,
+            "Sedentary": 0.227
+          },
+          "hypertension": {
+            "High": 0.112,
+            "Moderate": 0.789,
+            "Sedentary": 0.099
+          },
+          "obesity": {
+            "High": 0.097,
+            "Moderate": 0.755,
+            "Sedentary": 0.148
+          }
+        },
+        "smoking": {
+          "cardiovascular_risk": {
+            "Current": 0.41,
+            "Former": 0.262,
+            "Never": 0.328
+          },
+          "diabetes": {
+            "Current": 0.028,
+            "Former": 0.176,
+            "Never": 0.796
+          },
+          "dyslipidemia": {
+            "Current": 0.049,
+            "Former": 0.215,
+            "Never": 0.736
+          },
+          "healthy": {
+            "Current": 0.062,
+            "Former": 0.151,
+            "Never": 0.787
+          },
+          "hypertension": {
+            "Current": 0.046,
+            "Former": 0.225,
+            "Never": 0.729
+          },
+          "obesity": {
+            "Current": 0.024,
+            "Former": 0.11,
+            "Never": 0.866
+          }
+        },
+        "alcohol": {
+          "cardiovascular_risk": {
+            "Excessive": 0.407,
+            "Moderate": 0.295,
+            "None": 0.298
+          },
+          "diabetes": {
+            "Excessive": 0.028,
+            "Moderate": 0.296,
+            "None": 0.676
+          },
+          "dyslipidemia": {
+            "Excessive": 0.033,
+            "Moderate": 0.391,
+            "None": 0.576
+          },
+          "healthy": {
+            "Excessive": 0.079,
+            "Moderate": 0.443,
+            "None": 0.478
+          },
+          "hypertension": {
+            "Excessive": 0.079,
+            "Moderate": 0.563,
+            "None": 0.358
+          },
+          "obesity": {
+            "Excessive": 0.061,
+            "Moderate": 0.481,
+            "None": 0.458
+          }
+        },
+        "diet_quality": {
+          "cardiovascular_risk": {
+            "Average": 0.213,
+            "Good": 0.284,
+            "Poor": 0.503
+          },
+          "diabetes": {
+            "Average": 0.415,
+            "Good": 0.538,
+            "Poor": 0.047
+          },
+          "dyslipidemia": {
+            "Average": 0.277,
+            "Good": 0.664,
+            "Poor": 0.059
+          },
+          "healthy": {
+            "Average": 0.321,
+            "Good": 0.63,
+            "Poor": 0.049
+          },
+          "hypertension": {
+            "Average": 0.44,
+            "Good": 0.482,
+            "Poor": 0.078
+          },
+          "obesity": {
+            "Average": 0.351,
+            "Good": 0.578,
+            "Poor": 0.071
+          }
+        }
+      }
+    },
+    "epidemiological": {
+      "patterns": [
+        {
+          "class": "diabetes",
+          "variable": "fasting_glucose",
+          "rule": "min_mean",
+          "threshold": 126.0,
+          "observed_mean": 161.99,
+          "passed": true
+        },
+        {
+          "class": "diabetes",
+          "variable": "hba1c",
+          "rule": "min_mean",
+          "threshold": 6.5,
+          "observed_mean": 7.91,
+          "passed": true
+        },
+        {
+          "class": "dyslipidemia",
+          "variable": "ldl",
+          "rule": "min_mean",
+          "threshold": 136.0,
+          "observed_mean": 176.44,
+          "passed": true
+        },
+        {
+          "class": "hypertension",
+          "variable": "sbp",
+          "rule": "min_mean",
+          "threshold": 140.0,
+          "observed_mean": 147.3,
+          "passed": true
+        },
+        {
+          "class": "obesity",
+          "variable": "bmi",
+          "rule": "min_mean",
+          "threshold": 30.0,
+          "observed_mean": 33.36,
+          "passed": true
+        },
+        {
+          "class": "healthy",
+          "variable": "fasting_glucose",
+          "rule": "max_mean",
+          "threshold": 100.0,
+          "observed_mean": 86.51,
+          "passed": true
+        },
+        {
+          "class": "healthy",
+          "variable": "bmi",
+          "rule": "max_mean",
+          "threshold": 25.0,
+          "observed_mean": 22.3,
+          "passed": true
+        },
+        {
+          "class": "healthy",
+          "variable": "sbp",
+          "rule": "max_mean",
+          "threshold": 120.0,
+          "observed_mean": 108.97,
+          "passed": true
+        }
+      ],
+      "n_patterns_passed": 8,
+      "n_patterns_total": 8,
+      "age_ordering": [
+        {
+          "younger_class": "healthy",
+          "older_class": "hypertension",
+          "mean_age_younger": 40.2,
+          "mean_age_older": 60.3,
+          "passed": true
+        },
+        {
+          "younger_class": "healthy",
+          "older_class": "cardiovascular_risk",
+          "mean_age_younger": 40.2,
+          "mean_age_older": 60.3,
+          "passed": true
+        },
+        {
+          "younger_class": "healthy",
+          "older_class": "diabetes",
+          "mean_age_younger": 40.2,
+          "mean_age_older": 57.2,
+          "passed": true
+        }
+      ],
+      "age_ordering_all_passed": true
+    },
+    "generation_stats": {
+      "total_attempts": 11037,
+      "total_accepted": 6000,
+      "total_rejected": 5037,
+      "global_rejection_rate": 0.4563740146779016,
+      "average_attempts_per_accepted": 1.8395,
+      "rejection_rate_by_class": {
+        "healthy": 0.40828402366863903,
+        "diabetes": 0.5022399203583873,
+        "dyslipidemia": 0.452354874041621,
+        "hypertension": 0.5140913508260447,
+        "obesity": 0.5829858215179317,
+        "cardiovascular_risk": 0.05303030303030303
+      },
+      "rejections_per_rule": {
+        "R4_glucose_hba1c": 822,
+        "class_coherence": 3923,
+        "R3_pulse_pressure": 278,
+        "R2_friedewald": 14
+      },
+      "rejections_per_rule_per_class": {
+        "healthy": {
+          "R4_glucose_hba1c": 146,
+          "class_coherence": 467,
+          "R3_pulse_pressure": 75,
+          "R2_friedewald": 2
+        },
+        "diabetes": {
+          "class_coherence": 641,
+          "R4_glucose_hba1c": 345,
+          "R2_friedewald": 1,
+          "R3_pulse_pressure": 22
+        },
+        "dyslipidemia": {
+          "class_coherence": 716,
+          "R4_glucose_hba1c": 87,
+          "R3_pulse_pressure": 19,
+          "R2_friedewald": 4
+        },
+        "hypertension": {
+          "class_coherence": 852,
+          "R3_pulse_pressure": 117,
+          "R4_glucose_hba1c": 89
+        },
+        "obesity": {
+          "class_coherence": 1221,
+          "R3_pulse_pressure": 42,
+          "R4_glucose_hba1c": 130,
+          "R2_friedewald": 5
+        },
+        "cardiovascular_risk": {
+          "R4_glucose_hba1c": 25,
+          "R3_pulse_pressure": 3,
+          "class_coherence": 26,
+          "R2_friedewald": 2
+        }
+      }
+    }
+  },
+  "method_comparison": {
+    "n_copula": 6000,
+    "n_ctgan": 6000,
+    "continuous_means": {
+      "cardiovascular_risk": {
+        "age": {
+          "mean_copula": 59.967,
+          "mean_ctgan": 60.339,
+          "std_copula": 9.631,
+          "std_ctgan": 10.675,
+          "mean_delta": -0.372,
+          "mean_relative_delta": -0.006
+        },
+        "height": {
+          "mean_copula": 170.846,
+          "mean_ctgan": 173.845,
+          "std_copula": 10.441,
+          "std_ctgan": 9.475,
+          "mean_delta": -2.999,
+          "mean_relative_delta": -0.018
+        },
+        "weight": {
+          "mean_copula": 80.42,
+          "mean_ctgan": 82.482,
+          "std_copula": 10.769,
+          "std_ctgan": 13.154,
+          "mean_delta": -2.062,
+          "mean_relative_delta": -0.026
+        },
+        "bmi": {
+          "mean_copula": 27.447,
+          "mean_ctgan": 27.187,
+          "std_copula": 1.436,
+          "std_ctgan": 2.882,
+          "mean_delta": 0.26,
+          "mean_relative_delta": 0.009
+        },
+        "heart_rate": {
+          "mean_copula": 82.134,
+          "mean_ctgan": 82.421,
+          "std_copula": 4.758,
+          "std_ctgan": 5.394,
+          "mean_delta": -0.287,
+          "mean_relative_delta": -0.003
+        },
+        "sbp": {
+          "mean_copula": 130.058,
+          "mean_ctgan": 128.304,
+          "std_copula": 4.965,
+          "std_ctgan": 7.415,
+          "mean_delta": 1.754,
+          "mean_relative_delta": 0.013
+        },
+        "dbp": {
+          "mean_copula": 84.041,
+          "mean_ctgan": 82.992,
+          "std_copula": 3.064,
+          "std_ctgan": 5.608,
+          "mean_delta": 1.05,
+          "mean_relative_delta": 0.012
+        },
+        "resp_rate": {
+          "mean_copula": 14.981,
+          "mean_ctgan": 15.015,
+          "std_copula": 1.909,
+          "std_ctgan": 2.041,
+          "mean_delta": -0.034,
+          "mean_relative_delta": -0.002
+        },
+        "temp": {
+          "mean_copula": 36.802,
+          "mean_ctgan": 36.861,
+          "std_copula": 0.289,
+          "std_ctgan": 0.253,
+          "mean_delta": -0.059,
+          "mean_relative_delta": -0.002
+        },
+        "fasting_glucose": {
+          "mean_copula": 109.95,
+          "mean_ctgan": 109.416,
+          "std_copula": 5.955,
+          "std_ctgan": 13.27,
+          "mean_delta": 0.534,
+          "mean_relative_delta": 0.005
+        },
+        "hba1c": {
+          "mean_copula": 5.997,
+          "mean_ctgan": 6.037,
+          "std_copula": 0.192,
+          "std_ctgan": 0.42,
+          "mean_delta": -0.04,
+          "mean_relative_delta": -0.007
+        },
+        "total_chol": {
+          "mean_copula": 226.034,
+          "mean_ctgan": 223.843,
+          "std_copula": 11.379,
+          "std_ctgan": 19.706,
+          "mean_delta": 2.191,
+          "mean_relative_delta": 0.01
+        },
+        "ldl": {
+          "mean_copula": 145.066,
+          "mean_ctgan": 143.081,
+          "std_copula": 7.871,
+          "std_ctgan": 17.06,
+          "mean_delta": 1.985,
+          "mean_relative_delta": 0.014
+        },
+        "hdl": {
+          "mean_copula": 46.979,
+          "mean_ctgan": 46.024,
+          "std_copula": 6.974,
+          "std_ctgan": 8.034,
+          "mean_delta": 0.955,
+          "mean_relative_delta": 0.02
+        },
+        "triglycerides": {
+          "mean_copula": 169.98,
+          "mean_ctgan": 174.309,
+          "std_copula": 17.264,
+          "std_ctgan": 22.852,
+          "mean_delta": -4.329,
+          "mean_relative_delta": -0.025
+        }
+      },
+      "diabetes": {
+        "age": {
+          "mean_copula": 54.39,
+          "mean_ctgan": 57.167,
+          "std_copula": 11.2,
+          "std_ctgan": 11.657,
+          "mean_delta": -2.776,
+          "mean_relative_delta": -0.051
+        },
+        "height": {
+          "mean_copula": 171.636,
+          "mean_ctgan": 176.724,
+          "std_copula": 10.139,
+          "std_ctgan": 10.893,
+          "mean_delta": -5.088,
+          "mean_relative_delta": -0.03
+        },
+        "weight": {
+          "mean_copula": 65.824,
+          "mean_ctgan": 69.52,
+          "std_copula": 8.585,
+          "std_ctgan": 8.882,
+          "mean_delta": -3.696,
+          "mean_relative_delta": -0.056
+        },
+        "bmi": {
+          "mean_copula": 22.261,
+          "mean_ctgan": 22.179,
+          "std_copula": 1.133,
+          "std_ctgan": 0.946,
+          "mean_delta": 0.082,
+          "mean_relative_delta": 0.004
+        },
+        "heart_rate": {
+          "mean_copula": 71.669,
+          "mean_ctgan": 71.054,
+          "std_copula": 4.246,
+          "std_ctgan": 4.772,
+          "mean_delta": 0.614,
+          "mean_relative_delta": 0.009
+        },
+        "sbp": {
+          "mean_copula": 114.312,
+          "mean_ctgan": 112.95,
+          "std_copula": 3.05,
+          "std_ctgan": 3.115,
+          "mean_delta": 1.363,
+          "mean_relative_delta": 0.012
+        },
+        "dbp": {
+          "mean_copula": 74.445,
+          "mean_ctgan": 73.327,
+          "std_copula": 2.732,
+          "std_ctgan": 2.914,
+          "mean_delta": 1.118,
+          "mean_relative_delta": 0.015
+        },
+        "resp_rate": {
+          "mean_copula": 14.986,
+          "mean_ctgan": 16.004,
+          "std_copula": 2.032,
+          "std_ctgan": 1.878,
+          "mean_delta": -1.018,
+          "mean_relative_delta": -0.068
+        },
+        "temp": {
+          "mean_copula": 36.796,
+          "mean_ctgan": 36.931,
+          "std_copula": 0.314,
+          "std_ctgan": 0.266,
+          "mean_delta": -0.135,
+          "mean_relative_delta": -0.004
+        },
+        "fasting_glucose": {
+          "mean_copula": 160.305,
+          "mean_ctgan": 161.99,
+          "std_copula": 19.235,
+          "std_ctgan": 15.952,
+          "mean_delta": -1.685,
+          "mean_relative_delta": -0.011
+        },
+        "hba1c": {
+          "mean_copula": 7.476,
+          "mean_ctgan": 7.905,
+          "std_copula": 0.757,
+          "std_ctgan": 0.603,
+          "mean_delta": -0.429,
+          "mean_relative_delta": -0.057
+        },
+        "total_chol": {
+          "mean_copula": 175.999,
+          "mean_ctgan": 176.82,
+          "std_copula": 12.707,
+          "std_ctgan": 13.583,
+          "mean_delta": -0.822,
+          "mean_relative_delta": -0.005
+        },
+        "ldl": {
+          "mean_copula": 97.654,
+          "mean_ctgan": 97.917,
+          "std_copula": 10.79,
+          "std_ctgan": 11.673,
+          "mean_delta": -0.263,
+          "mean_relative_delta": -0.003
+        },
+        "hdl": {
+          "mean_copula": 55.335,
+          "mean_ctgan": 55.86,
+          "std_copula": 7.611,
+          "std_ctgan": 8.807,
+          "mean_delta": -0.525,
+          "mean_relative_delta": -0.009
+        },
+        "triglycerides": {
+          "mean_copula": 115.642,
+          "mean_ctgan": 115.239,
+          "std_copula": 14.927,
+          "std_ctgan": 16.889,
+          "mean_delta": 0.403,
+          "mean_relative_delta": 0.003
+        }
+      },
+      "dyslipidemia": {
+        "age": {
+          "mean_copula": 51.837,
+          "mean_ctgan": 48.004,
+          "std_copula": 11.905,
+          "std_ctgan": 13.048,
+          "mean_delta": 3.833,
+          "mean_relative_delta": 0.074
+        },
+        "height": {
+          "mean_copula": 171.084,
+          "mean_ctgan": 173.784,
+          "std_copula": 10.269,
+          "std_ctgan": 10.796,
+          "mean_delta": -2.7,
+          "mean_relative_delta": -0.016
+        },
+        "weight": {
+          "mean_copula": 65.705,
+          "mean_ctgan": 67.943,
+          "std_copula": 8.727,
+          "std_ctgan": 9.174,
+          "mean_delta": -2.238,
+          "mean_relative_delta": -0.034
+        },
+        "bmi": {
+          "mean_copula": 22.364,
+          "mean_ctgan": 22.4,
+          "std_copula": 1.211,
+          "std_ctgan": 0.951,
+          "mean_delta": -0.037,
+          "mean_relative_delta": -0.002
+        },
+        "heart_rate": {
+          "mean_copula": 71.699,
+          "mean_ctgan": 68.209,
+          "std_copula": 4.26,
+          "std_ctgan": 5.791,
+          "mean_delta": 3.49,
+          "mean_relative_delta": 0.049
+        },
+        "sbp": {
+          "mean_copula": 114.316,
+          "mean_ctgan": 114.074,
+          "std_copula": 3.021,
+          "std_ctgan": 3.038,
+          "mean_delta": 0.242,
+          "mean_relative_delta": 0.002
+        },
+        "dbp": {
+          "mean_copula": 74.448,
+          "mean_ctgan": 74.789,
+          "std_copula": 2.69,
+          "std_ctgan": 2.708,
+          "mean_delta": -0.341,
+          "mean_relative_delta": -0.005
+        },
+        "resp_rate": {
+          "mean_copula": 15.063,
+          "mean_ctgan": 15.562,
+          "std_copula": 1.981,
+          "std_ctgan": 2.047,
+          "mean_delta": -0.5,
+          "mean_relative_delta": -0.033
+        },
+        "temp": {
+          "mean_copula": 36.789,
+          "mean_ctgan": 36.895,
+          "std_copula": 0.309,
+          "std_ctgan": 0.239,
+          "mean_delta": -0.105,
+          "mean_relative_delta": -0.003
+        },
+        "fasting_glucose": {
+          "mean_copula": 89.53,
+          "mean_ctgan": 88.417,
+          "std_copula": 4.816,
+          "std_ctgan": 4.546,
+          "mean_delta": 1.112,
+          "mean_relative_delta": 0.012
+        },
+        "hba1c": {
+          "mean_copula": 5.183,
+          "mean_ctgan": 5.167,
+          "std_copula": 0.175,
+          "std_ctgan": 0.162,
+          "mean_delta": 0.016,
+          "mean_relative_delta": 0.003
+        },
+        "total_chol": {
+          "mean_copula": 257.505,
+          "mean_ctgan": 258.129,
+          "std_copula": 13.683,
+          "std_ctgan": 16.878,
+          "mean_delta": -0.625,
+          "mean_relative_delta": -0.002
+        },
+        "ldl": {
+          "mean_copula": 178.686,
+          "mean_ctgan": 176.443,
+          "std_copula": 11.109,
+          "std_ctgan": 13.057,
+          "mean_delta": 2.243,
+          "mean_relative_delta": 0.013
+        },
+        "hdl": {
+          "mean_copula": 49.973,
+          "mean_ctgan": 53.11,
+          "std_copula": 7.308,
+          "std_ctgan": 8.442,
+          "mean_delta": -3.137,
+          "mean_relative_delta": -0.063
+        },
+        "triglycerides": {
+          "mean_copula": 143.468,
+          "mean_ctgan": 142.425,
+          "std_copula": 21.013,
+          "std_ctgan": 21.734,
+          "mean_delta": 1.043,
+          "mean_relative_delta": 0.007
+        }
+      },
+      "healthy": {
+        "age": {
+          "mean_copula": 40.183,
+          "mean_ctgan": 40.211,
+          "std_copula": 12.397,
+          "std_ctgan": 11.876,
+          "mean_delta": -0.028,
+          "mean_relative_delta": -0.001
+        },
+        "height": {
+          "mean_copula": 171.176,
+          "mean_ctgan": 172.488,
+          "std_copula": 10.532,
+          "std_ctgan": 11.309,
+          "mean_delta": -1.313,
+          "mean_relative_delta": -0.008
+        },
+        "weight": {
+          "mean_copula": 64.557,
+          "mean_ctgan": 66.618,
+          "std_copula": 9.553,
+          "std_ctgan": 9.632,
+          "mean_delta": -2.061,
+          "mean_relative_delta": -0.032
+        },
+        "bmi": {
+          "mean_copula": 21.932,
+          "mean_ctgan": 22.296,
+          "std_copula": 1.594,
+          "std_ctgan": 1.324,
+          "mean_delta": -0.364,
+          "mean_relative_delta": -0.017
+        },
+        "heart_rate": {
+          "mean_copula": 68.134,
+          "mean_ctgan": 65.959,
+          "std_copula": 6.848,
+          "std_ctgan": 6.103,
+          "mean_delta": 2.175,
+          "mean_relative_delta": 0.032
+        },
+        "sbp": {
+          "mean_copula": 110.404,
+          "mean_ctgan": 108.973,
+          "std_copula": 5.796,
+          "std_ctgan": 5.951,
+          "mean_delta": 1.431,
+          "mean_relative_delta": 0.013
+        },
+        "dbp": {
+          "mean_copula": 72.258,
+          "mean_ctgan": 71.798,
+          "std_copula": 4.989,
+          "std_ctgan": 4.15,
+          "mean_delta": 0.461,
+          "mean_relative_delta": 0.006
+        },
+        "resp_rate": {
+          "mean_copula": 15.001,
+          "mean_ctgan": 15.701,
+          "std_copula": 1.97,
+          "std_ctgan": 1.995,
+          "mean_delta": -0.7,
+          "mean_relative_delta": -0.047
+        },
+        "temp": {
+          "mean_copula": 36.801,
+          "mean_ctgan": 36.907,
+          "std_copula": 0.311,
+          "std_ctgan": 0.248,
+          "mean_delta": -0.106,
+          "mean_relative_delta": -0.003
+        },
+        "fasting_glucose": {
+          "mean_copula": 85.861,
+          "mean_ctgan": 86.512,
+          "std_copula": 5.84,
+          "std_ctgan": 5.301,
+          "mean_delta": -0.651,
+          "mean_relative_delta": -0.008
+        },
+        "hba1c": {
+          "mean_copula": 5.095,
+          "mean_ctgan": 5.156,
+          "std_copula": 0.215,
+          "std_ctgan": 0.193,
+          "mean_delta": -0.062,
+          "mean_relative_delta": -0.012
+        },
+        "total_chol": {
+          "mean_copula": 164.044,
+          "mean_ctgan": 161.45,
+          "std_copula": 16.783,
+          "std_ctgan": 18.031,
+          "mean_delta": 2.594,
+          "mean_relative_delta": 0.016
+        },
+        "ldl": {
+          "mean_copula": 84.78,
+          "mean_ctgan": 79.511,
+          "std_copula": 13.652,
+          "std_ctgan": 16.54,
+          "mean_delta": 5.269,
+          "mean_relative_delta": 0.062
+        },
+        "hdl": {
+          "mean_copula": 60.296,
+          "mean_ctgan": 62.58,
+          "std_copula": 9.191,
+          "std_ctgan": 10.675,
+          "mean_delta": -2.284,
+          "mean_relative_delta": -0.038
+        },
+        "triglycerides": {
+          "mean_copula": 94.364,
+          "mean_ctgan": 96.644,
+          "std_copula": 21.776,
+          "std_ctgan": 25.154,
+          "mean_delta": -2.281,
+          "mean_relative_delta": -0.024
+        }
+      },
+      "hypertension": {
+        "age": {
+          "mean_copula": 56.938,
+          "mean_ctgan": 60.319,
+          "std_copula": 11.757,
+          "std_ctgan": 11.926,
+          "mean_delta": -3.381,
+          "mean_relative_delta": -0.059
+        },
+        "height": {
+          "mean_copula": 171.398,
+          "mean_ctgan": 172.898,
+          "std_copula": 10.324,
+          "std_ctgan": 10.597,
+          "mean_delta": -1.5,
+          "mean_relative_delta": -0.009
+        },
+        "weight": {
+          "mean_copula": 66.257,
+          "mean_ctgan": 68.824,
+          "std_copula": 8.454,
+          "std_ctgan": 9.047,
+          "mean_delta": -2.567,
+          "mean_relative_delta": -0.039
+        },
+        "bmi": {
+          "mean_copula": 22.483,
+          "mean_ctgan": 22.934,
+          "std_copula": 1.186,
+          "std_ctgan": 0.974,
+          "mean_delta": -0.452,
+          "mean_relative_delta": -0.02
+        },
+        "heart_rate": {
+          "mean_copula": 72.682,
+          "mean_ctgan": 71.985,
+          "std_copula": 4.338,
+          "std_ctgan": 5.126,
+          "mean_delta": 0.697,
+          "mean_relative_delta": 0.01
+        },
+        "sbp": {
+          "mean_copula": 152.13,
+          "mean_ctgan": 147.295,
+          "std_copula": 7.544,
+          "std_ctgan": 6.276,
+          "mean_delta": 4.834,
+          "mean_relative_delta": 0.032
+        },
+        "dbp": {
+          "mean_copula": 95.116,
+          "mean_ctgan": 93.364,
+          "std_copula": 3.666,
+          "std_ctgan": 6.329,
+          "mean_delta": 1.751,
+          "mean_relative_delta": 0.018
+        },
+        "resp_rate": {
+          "mean_copula": 15.039,
+          "mean_ctgan": 15.154,
+          "std_copula": 1.964,
+          "std_ctgan": 2.074,
+          "mean_delta": -0.115,
+          "mean_relative_delta": -0.008
+        },
+        "temp": {
+          "mean_copula": 36.801,
+          "mean_ctgan": 36.922,
+          "std_copula": 0.305,
+          "std_ctgan": 0.267,
+          "mean_delta": -0.121,
+          "mean_relative_delta": -0.003
+        },
+        "fasting_glucose": {
+          "mean_copula": 91.387,
+          "mean_ctgan": 91.807,
+          "std_copula": 4.607,
+          "std_ctgan": 4.11,
+          "mean_delta": -0.42,
+          "mean_relative_delta": -0.005
+        },
+        "hba1c": {
+          "mean_copula": 5.282,
+          "mean_ctgan": 5.33,
+          "std_copula": 0.168,
+          "std_ctgan": 0.134,
+          "mean_delta": -0.047,
+          "mean_relative_delta": -0.009
+        },
+        "total_chol": {
+          "mean_copula": 178.512,
+          "mean_ctgan": 175.267,
+          "std_copula": 12.272,
+          "std_ctgan": 13.74,
+          "mean_delta": 3.245,
+          "mean_relative_delta": 0.018
+        },
+        "ldl": {
+          "mean_copula": 98.901,
+          "mean_ctgan": 94.862,
+          "std_copula": 10.715,
+          "std_ctgan": 11.207,
+          "mean_delta": 4.039,
+          "mean_relative_delta": 0.041
+        },
+        "hdl": {
+          "mean_copula": 55.854,
+          "mean_ctgan": 57.22,
+          "std_copula": 7.79,
+          "std_ctgan": 8.282,
+          "mean_delta": -1.366,
+          "mean_relative_delta": -0.024
+        },
+        "triglycerides": {
+          "mean_copula": 118.751,
+          "mean_ctgan": 116.435,
+          "std_copula": 15.617,
+          "std_ctgan": 15.109,
+          "mean_delta": 2.316,
+          "mean_relative_delta": 0.02
+        }
+      },
+      "obesity": {
+        "age": {
+          "mean_copula": 43.301,
+          "mean_ctgan": 34.564,
+          "std_copula": 11.284,
+          "std_ctgan": 10.367,
+          "mean_delta": 8.737,
+          "mean_relative_delta": 0.202
+        },
+        "height": {
+          "mean_copula": 171.312,
+          "mean_ctgan": 175.63,
+          "std_copula": 9.932,
+          "std_ctgan": 11.111,
+          "mean_delta": -4.318,
+          "mean_relative_delta": -0.025
+        },
+        "weight": {
+          "mean_copula": 96.862,
+          "mean_ctgan": 103.276,
+          "std_copula": 12.402,
+          "std_ctgan": 13.802,
+          "mean_delta": -6.414,
+          "mean_relative_delta": -0.066
+        },
+        "bmi": {
+          "mean_copula": 32.893,
+          "mean_ctgan": 33.356,
+          "std_copula": 1.733,
+          "std_ctgan": 1.578,
+          "mean_delta": -0.463,
+          "mean_relative_delta": -0.014
+        },
+        "heart_rate": {
+          "mean_copula": 73.7,
+          "mean_ctgan": 72.281,
+          "std_copula": 3.705,
+          "std_ctgan": 4.969,
+          "mean_delta": 1.42,
+          "mean_relative_delta": 0.019
+        },
+        "sbp": {
+          "mean_copula": 114.508,
+          "mean_ctgan": 113.834,
+          "std_copula": 2.874,
+          "std_ctgan": 3.425,
+          "mean_delta": 0.674,
+          "mean_relative_delta": 0.006
+        },
+        "dbp": {
+          "mean_copula": 75.519,
+          "mean_ctgan": 75.324,
+          "std_copula": 2.407,
+          "std_ctgan": 2.408,
+          "mean_delta": 0.194,
+          "mean_relative_delta": 0.003
+        },
+        "resp_rate": {
+          "mean_copula": 14.949,
+          "mean_ctgan": 15.02,
+          "std_copula": 1.943,
+          "std_ctgan": 2.026,
+          "mean_delta": -0.072,
+          "mean_relative_delta": -0.005
+        },
+        "temp": {
+          "mean_copula": 36.81,
+          "mean_ctgan": 36.918,
+          "std_copula": 0.306,
+          "std_ctgan": 0.246,
+          "mean_delta": -0.108,
+          "mean_relative_delta": -0.003
+        },
+        "fasting_glucose": {
+          "mean_copula": 91.722,
+          "mean_ctgan": 91.401,
+          "std_copula": 4.327,
+          "std_ctgan": 4.096,
+          "mean_delta": 0.321,
+          "mean_relative_delta": 0.004
+        },
+        "hba1c": {
+          "mean_copula": 5.297,
+          "mean_ctgan": 5.291,
+          "std_copula": 0.163,
+          "std_ctgan": 0.154,
+          "mean_delta": 0.005,
+          "mean_relative_delta": 0.001
+        },
+        "total_chol": {
+          "mean_copula": 179.522,
+          "mean_ctgan": 178.427,
+          "std_copula": 11.942,
+          "std_ctgan": 13.558,
+          "mean_delta": 1.095,
+          "mean_relative_delta": 0.006
+        },
+        "ldl": {
+          "mean_copula": 101.721,
+          "mean_ctgan": 101.037,
+          "std_copula": 10.32,
+          "std_ctgan": 11.234,
+          "mean_delta": 0.684,
+          "mean_relative_delta": 0.007
+        },
+        "hdl": {
+          "mean_copula": 53.494,
+          "mean_ctgan": 54.152,
+          "std_copula": 6.889,
+          "std_ctgan": 6.815,
+          "mean_delta": -0.658,
+          "mean_relative_delta": -0.012
+        },
+        "triglycerides": {
+          "mean_copula": 122.019,
+          "mean_ctgan": 117.066,
+          "std_copula": 15.478,
+          "std_ctgan": 15.008,
+          "mean_delta": 4.954,
+          "mean_relative_delta": 0.041
+        }
+      }
+    },
+    "correlation_frobenius_distance": 0.8814994876410922,
+    "correlation_top_divergences": [
+      {
+        "var1": "age",
+        "var2": "bmi",
+        "corr_a": -0.1,
+        "corr_b": -0.295,
+        "delta": 0.195
+      },
+      {
+        "var1": "age",
+        "var2": "weight",
+        "corr_a": -0.081,
+        "corr_b": -0.26,
+        "delta": 0.179
+      },
+      {
+        "var1": "heart_rate",
+        "var2": "hdl",
+        "corr_a": -0.273,
+        "corr_b": -0.413,
+        "delta": 0.14
+      },
+      {
+        "var1": "bmi",
+        "var2": "triglycerides",
+        "corr_a": 0.298,
+        "corr_b": 0.16,
+        "delta": 0.137
+      },
+      {
+        "var1": "bmi",
+        "var2": "resp_rate",
+        "corr_a": -0.007,
+        "corr_b": -0.123,
+        "delta": 0.116
+      },
+      {
+        "var1": "weight",
+        "var2": "triglycerides",
+        "corr_a": 0.244,
+        "corr_b": 0.131,
+        "delta": 0.112
+      },
+      {
+        "var1": "age",
+        "var2": "ldl",
+        "corr_a": 0.262,
+        "corr_b": 0.151,
+        "delta": 0.111
+      },
+      {
+        "var1": "sbp",
+        "var2": "dbp",
+        "corr_a": 0.951,
+        "corr_b": 0.849,
+        "delta": 0.103
+      },
+      {
+        "var1": "age",
+        "var2": "heart_rate",
+        "corr_a": 0.241,
+        "corr_b": 0.343,
+        "delta": -0.103
+      },
+      {
+        "var1": "heart_rate",
+        "var2": "resp_rate",
+        "corr_a": 0.003,
+        "corr_b": -0.098,
+        "delta": 0.101
+      }
+    ]
+  }
+}

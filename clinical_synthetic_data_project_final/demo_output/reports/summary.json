@@ -1,0 +1,153 @@
+{
+  "config": {
+    "m_per_class": 1000,
+    "seed": 42,
+    "ctgan_epochs": 600,
+    "ctgan_batch_size": 500,
+    "output_dir": "C:\\Users\\PC\\desktop\\clinical_synthetic_data_project_final\\demo_output"
+  },
+  "timings": {
+    "1. Génération copule (Méthode 1)": 1.613327980041504,
+    "2. CTGAN (Méthode 2) — entraînement + génération": 1812.5989611148834,
+    "3. Sauvegarde des datasets CSV": 0.7624294757843018,
+    "4. Analyses statistiques": 0.5136675834655762,
+    "5. Visualisations": 34.06368899345398,
+    "6. Évaluation ML": 79.01619911193848
+  },
+  "outputs": {
+    "datasets": [
+      "dataset_copula.csv",
+      "dataset_ctgan.csv"
+    ],
+    "figures": [
+      "boxplots_copula.png",
+      "confusion_copula.png",
+      "cv_copula.png",
+      "heatmap_comparison.png",
+      "heatmap_copula.png",
+      "heatmap_ctgan.png",
+      "histograms_copula.png",
+      "histograms_ctgan.png",
+      "metrics_copula.png",
+      "scatter_copula.png",
+      "scatter_ctgan.png"
+    ],
+    "reports": [
+      "analysis_report.json",
+      "ml_report.json",
+      "summary.json"
+    ]
+  },
+  "generation": {
+    "copula": {
+      "total_attempts": 9638,
+      "total_accepted": 6000,
+      "total_rejected": 3638,
+      "global_rejection_rate": 0.37746420419174104,
+      "average_attempts_per_accepted": 1.6063333333333334,
+      "rejection_rate_by_class": {
+        "healthy": 0.16943521594684385,
+        "diabetes": 0.3610223642172524,
+        "dyslipidemia": 0.26847110460863205,
+        "hypertension": 0.44994499449944997,
+        "obesity": 0.6270048489369638,
+        "cardiovascular_risk": 0.0029910269192422734
+      },
+      "rejections_per_rule": {
+        "class_coherence": 3453,
+        "bounds": 168,
+        "R2_friedewald": 8,
+        "R4_glucose_hba1c": 9
+      },
+      "rejections_per_rule_per_class": {
+        "healthy": {
+          "class_coherence": 91,
+          "bounds": 112,
+          "R2_friedewald": 1
+        },
+        "diabetes": {
+          "class_coherence": 549,
+          "R2_friedewald": 1,
+          "R4_glucose_hba1c": 9,
+          "bounds": 6
+        },
+        "dyslipidemia": {
+          "class_coherence": 358,
+          "bounds": 7,
+          "R2_friedewald": 2
+        },
+        "hypertension": {
+          "class_coherence": 807,
+          "bounds": 11
+        },
+        "obesity": {
+          "class_coherence": 1648,
+          "bounds": 31,
+          "R2_friedewald": 2
+        },
+        "cardiovascular_risk": {
+          "bounds": 1,
+          "R2_friedewald": 2
+        }
+      }
+    },
+    "ctgan": {
+      "total_attempts": 11037,
+      "total_accepted": 6000,
+      "total_rejected": 5037,
+      "global_rejection_rate": 0.4563740146779016,
+      "average_attempts_per_accepted": 1.8395,
+      "rejection_rate_by_class": {
+        "healthy": 0.40828402366863903,
+        "diabetes": 0.5022399203583873,
+        "dyslipidemia": 0.452354874041621,
+        "hypertension": 0.5140913508260447,
+        "obesity": 0.5829858215179317,
+        "cardiovascular_risk": 0.05303030303030303
+      },
+      "rejections_per_rule": {
+        "R4_glucose_hba1c": 822,
+        "class_coherence": 3923,
+        "R3_pulse_pressure": 278,
+        "R2_friedewald": 14
+      },
+      "rejections_per_rule_per_class": {
+        "healthy": {
+          "R4_glucose_hba1c": 146,
+          "class_coherence": 467,
+          "R3_pulse_pressure": 75,
+          "R2_friedewald": 2
+        },
+        "diabetes": {
+          "class_coherence": 641,
+          "R4_glucose_hba1c": 345,
+          "R2_friedewald": 1,
+          "R3_pulse_pressure": 22
+        },
+        "dyslipidemia": {
+          "class_coherence": 716,
+          "R4_glucose_hba1c": 87,
+          "R3_pulse_pressure": 19,
+          "R2_friedewald": 4
+        },
+        "hypertension": {
+          "class_coherence": 852,
+          "R3_pulse_pressure": 117,
+          "R4_glucose_hba1c": 89
+        },
+        "obesity": {
+          "class_coherence": 1221,
+          "R3_pulse_pressure": 42,
+          "R4_glucose_hba1c": 130,
+          "R2_friedewald": 5
+        },
+        "cardiovascular_risk": {
+          "R4_glucose_hba1c": 25,
+          "R3_pulse_pressure": 3,
+          "class_coherence": 26,
+          "R2_friedewald": 2
+        }
+      }
+    }
+  }
+}
